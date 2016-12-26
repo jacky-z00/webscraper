@@ -1,0 +1,318 @@
+Row,Provider,Error Message,Error Code,Website
+51,Intacct,HTTPError,403,www.intacct.com
+70,Reynolds and Reynolds,Decode Error, ,http://www.reyrey.com/
+81,Seagate,Server didn't send data, ,www.i365.com
+127,Lumesse,HTTPError,406,http://www.lumesse.com/us
+135,Mzinga,HTTPError,406,http://www.mzinga.com/
+138,Halogen Software,HTTPError,404,http://ir.halogensoftware.com/company/investors/overview/default.ASPx
+149,Accenture,HTTPError,404,http://www.accenture.com
+166,Esker Software,Decode Error, ,http://www.esker.com/
+235,Neogrid Agentics Trace One,HTTPError,404,www.traceone.com
+261,Opentrust Keynectis,Server didn't send data, ,http://www.keynectis.com/
+265,Sword,HTTPError,403,http://www.sword-group.com/English/Pages/Home.ASPx
+269,Innovis Data Solutions,HTTPError,404,https://www.innovis.com/InnovisWeb/aboutInnovis.html
+286,Zyncro,Server didn't send data, ,http://www.zyncro.com/en/
+301,IMC AG,Incomplete Read Error, ,http://www.im-c.de
+303,Log-Net,Decode Error, ,http://www.log-net.com/
+304,Vertabase,HTTPError,406,http://vertabase.com/
+316,Allott Optenet,Duplicate, ,See Allott
+320,Aplicor,HTTPError,406,www.aplicor.com
+334,Sabre Abacus,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",Bought by Sabre
+340,DealerSocket Autostar,Duplicate, ,See DealerSocket
+344,Attensity Group,HTTPError,404,http://www.attensity.com/home/
+358,Xactly Corp.,HTTPError,403,https://www.xactly.com/
+372,Maxsi Ltd,HTTPError,404,http://www.evisitanalyst.com/
+385,Accela,HTTPError,406,http://www.accela.com/
+407,edge IPK Ltd,Server didn't send data, ,http://www.edgeipk.com/
+417,NTT Data Everis Group Everilion,Decode Error, ,http://www.ilionsistemas.com
+434,Duzon Bizon,Decode Error, ,www.duzonbizon.co.kr
+449,Compario,HTTPError,404,http://www.compario.net/
+453,Lenovo,HTTPError,403,http://www.lenovo.com/lenovo/us/en/our-company.shtml
+457,Everwin,Server didn't send data, ,http://www.everwin.fr/
+479,DealerSocket FEX DMS,Duplicate, ,See DealerSocket (2)
+480,Brightpearl,Incomplete Read Error, ,https://www.brightpearl.com/
+484,Cigam,Decode Error, ,www.cigam.com.br
+486,Mangaquest eVapt,HTTPError,303,http://www.magnaquest.com/
+509,Open Gestion,Decode Error, ,http://www.opengestion.com
+519,Capita,HTTPError,404,http://www.capita-softwareandmanagedservices.co.uk/Pages/Home.ASPx
+521,Asiainfo,HTTPError,404,http://www.asiainfo-linkage.com/Home.ASPx
+533,NKIA,Decode Error, ,www.nkia.co.kr
+546,IRIS Software,HTTPError,404,http://www.irissoft.com/Home/tabid/36/Default.ASPx
+550,RAS (Rent a Software),HTTPError,401,www.rentasw.net
+551,e-vendo AG,Decode Error, ,http://www.e-vendo.de
+559,Baidu,Decode Error, ,http://home.baidu.com/
+586,Tennaxia,HTTPError,404,http://www.tennaxia.com/public/index.php/accueil-tennaxia.html
+589,Pomeroy/BluePoint Data Inc.,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",www.bluepointdata.com
+594,Coupa ZenPurchase,Duplicate, ,See Coupa
+599,bigWebApps,HTTPError,404,http://www.bigwebapps.com/about-us/
+605,Able Commerce,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://blog.ablecommerce.com/
+623,Centric Software,HTTPError,404,http://www.centricsoftware.com/Home.ASPx
+626,Effisoft,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.effisoft-consulting.com/default.ASPx?langue=en
+634,Collabor,Server didn't send data, ,http://www.collabor.com/
+635,EMBRIA Technologies,HTTPError,404,http://www.embria.com.br/HTMLS/br/com/embria/www_embria/versao_06/servlet/en-gb/index.html
+636,x4,HTTPError,400,http://www.softwarex4.com/
+638,Chang Yi,HTTPError,404,http://www.changyi.com/english/company/overview.htm
+645,Healy Hudson Holding,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.healy-hudson-holding.ch/?lng=en&content=portfolio
+659,Inca Internet,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",biz.nprotect.com
+666,Litebi,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.litebi.com
+669,Hogia Group,HTTPError,404,http://www2.hogia.se/website3/1.0.3.0/149/2/index.php
+670,Collmex GmbH,Decode Error, ,www.collmex.de
+673,Amber Road ecVision,Duplicate, ,See Amber Road
+677,Customer Mantra,Server didn't send data, ,http://www.customermantra.com/
+693,ASA International,Server didn't send data, ,http://www.asaint.com/
+695,Bench,HTTPError,404,https://bench.co/video/
+697,Deltek HRSmart,Duplicate, ,See Deltek
+702,BRITC,Decode Error, ,http://www.britc.com/
+711,Decisions on Demand,HTTPError,406,http://decisionsondemand.com/
+717,Alps System Integration,Decode Error, ,http://www.alsi.co.jp/
+719,Corim Solutions,HTTPError,302,http://www.corim-solutions.com/
+722,3i Infotech,HTTPError,404,http://www.3i-infotech.com/content/index.ASPx
+732,HP Voltage Security,Duplicate, ,See HP
+743,CentraStage Limited,Decode Error, ,http://www.centrastage.com/
+767,American Software,HTTPError,404,http://www.amsoftware.com/marketing/
+774,Adeasy AS,HTTPError,500,http://www.adeasy.no/adeasy/
+775,APPGEN Business Software,Decode Error, ,http://www.appgen.com/
+776,Native Data Systems Comax,Decode Error, ,http://www.comax.co.il/default_e.ASP
+777,Hydra Management/eTask-it,HTTPError,403,http://www.etask.it/
+798,KidoZen,HTTPError,406,http://www.kidozen.com/
+799,Hitasoft Technologies,HTTPError,406,http://www.hitasoft.com/
+805,myCart Poinf of Sale,HTTPError,404,http://www.mycart.net/
+808,Hancom,HTTPError,404,http://www.hancom.com/en/aboutus/introduction.jsp
+815,Clarabridge Engagor,Duplicate, ,See Clarabridge
+821,LoopUp,HTTPError,302,http://loopup.com/
+826,TXT e-Solutions,HTTPError,404,http://www.txtgroup.com/en/Pagine/default.ASPx
+831,Timecentre,HTTPError,406,http://www.timecentre.com/
+850,Daumsoft,HTTPError,404,http://www.daumsoft.com/eng/
+853,netEvidence,Decode Error, ,http://www.net-evidence.com/
+856,Mandriva,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.mandriva.com/en/
+864,ContractPal,Server didn't send data, ,http://contractpal.com/
+888,Ad Server Solutions,Decode Error, ,http://adserversolutions.com/
+889,Gsolutionz Inc.,URLError ,"SSLError(1, '[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:645)')",https://www.gsolutionz.com/
+904,Happy Inspector,HTTPError,406,http://happyinspector.com/
+910,JadeTrack,HTTPError,406,https://www.jadetrack.com/
+917,AFJC Corp,HTTPError,406,http://www.taxpreparersolutions.com/
+930,iTesso,Server didn't send data, ,http://www.itesso.com/
+937,Logibec Mediamed,Duplicate, ,See Logibec
+947,Efficient Solutions,Decode Error, ,http://www.effisols.com/
+952,FlexiInternational Software,HTTPError,404,http://www.flexi.com/default.ASP?id=
+957,Supplychain Connect,HTTPError,500,http://supplychainconnect.com/
+962,Multi-Systems,HTTPError,406,http://www.msisolutions.com/
+963,Aspel,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.ASPel.com.mx/
+971,Nirvanix,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",NA
+972,AppNexus YieldMatrix,Duplicate, ,See Appnexus
+985,InterAct ,Server didn't send data, ,http://www.interact911.com/
+986,CRW Systems,HTTPError,500,http://www.crw.com/crw-systems-premier-land-management-systems/
+988,Cguros Inc.,HTTPError,406,http://www.cguros.com/
+998,Wally Sen Beijing Xtools,Decode Error, ,www.xtools.cn
+1000,Web Notes Technolgies,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.erpnext.com
+1001,Queplix,HTTPError,406,http://www.queplix.com/
+1006,ScheduleSoft,HTTPError,404,http://www.schedulesoft.com.dnnmax.com/Home/tabid/90/Default.ASPx
+1015,IntelliCorp Inc.,HTTPError,404,http://www.intelli.com/default.ASPx
+1034,Zend Technologies,Incomplete Read Error, ,http://www.zend.com/en/
+1041,Logo Business Solutions,HTTPError,500,http://support.logo.com.tr/index.php/en
+1044,Bigcommerce Zing,Duplicate, ,See Bigcommerce
+1057,HGN,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",www.hgnsoft.com
+1058,Oxatis Actinic,Decode Error, ,http://www.oxatis.com/OxLicense.ASP?PGFLngID=1
+1064,Ntractive,HTTPError,404,http://www.ntractive.com/mac-crm/en/
+1068,PNI Digital Media ,Incomplete Read Error, ,http://www.pnimedia.com/
+1070,Namely,HTTPError,404,http://www.namely.com/about/
+1081,Beanbag,HTTPError,404,https://www.beanbag.com/products/
+1085,Atende,HTTPError,404,http://www.atende.pl/en/about-us/capital-group/atende-software
+1098,iVirtua,HTTPError,403,http://www.ivirtuagroup.com.br/
+1099,ANGOSS Software International Ltd.,HTTPError,403,http://www.angoss.com/
+1117,LMC,Decode Error, ,http://www.lmcsoftwaresolutions.com/
+1118,Auraportal,HTTPError,404,http://www.auraportal.com/ap/cm.ASPx
+1124,MainOne,Decode Error, ,www.b2b.cn
+1126,FPX Glider,HTTPError,406,https://glider.com/
+1127,Ciber Group Xnear,Server didn't send data, ,http://www.cibergroup.cl/
+1128,Formula Telecom Solutions,Decode Error, ,http://www.fts-soft.com/
+1136,Solmicro,Server didn't send data, ,http://www.solmicro.com/
+1138,Tidemark,Incomplete Read Error, ,http://www.tidemark.net
+1144,Sohnar,Server didn't send data, ,http://www.sohnar.com
+1147,Thailand Wealth Management Systems,Decode Error, ,http://www.wealth.co.th/about.php
+1151,Igloo Software,HTTPError,400,http://www.igloosoftware.com/
+1153,High Line Corp.,HTTPError,404,http://www.highline.com/
+1156,Microsoft Datazen ComponentArt,Server didn't send data, ,http://www.componentart.com/
+1157,Nativly,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://nativly.co/
+1186,VirtUSA Apparatus,Duplicate, ,See VirtUSA
+1187,"53 Technology Dealicio, LLC",HTTPError,406,http://53tech.com/
+1188,GetShopApp,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.getshopapp.com/en
+1194,Polaris Software Lab,Decode Error, ,http://www.polarisft.com/
+1204,Greenpie,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.greenpie.net//home.html
+1219,bluebox,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://bluebox.com/
+1220,Accusoft edocr,Duplicate, ,See Accusoft
+1237,AcademicWorks,HTTPError,406,https://www.academicworks.com/
+1270,BancTec Inc.,HTTPError,404,http://www.banctec.com/company/
+1285,Bison Group,HTTPError,404,http://www.bison-group.com/en/
+1304,Ipswitch,HTTPError,404,http://www.ipswitch.com/company/news/press-releases/
+1316,Didean Systems,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.dideansystems.com/
+1331,Coolano,HTTPError,403,http://coolano.com/
+1349,DealerSocket DealerFire,Duplicate, ,See DealerSocket (3)
+1363,Duzon Bizon Dynamacs,Duplicate, ,See Duzon Bizon
+1366,Avaya Knoahsoft,Decode Error, ,https://www.knoahsoft.com/
+1368,Dude Windmill,Duplicate, ,See Dude Solutions
+1375,Archon,HTTPError,406,http://www.archonsystems.com/index.html
+1379,Elixserve,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://elixserve.com/
+1381,Goshido,Server didn't send data, ,http://www.goshido.com/
+1387,Corebook,HTTPError,522,https://www.corebook.me
+1398,Kicom,HTTPError,406,http://www.kicom.co.kr/
+1399,Beezy,HTTPError,406,http://www.beezy.net/
+1409,innofactor,HTTPError,302,http://www.innofactor.com/
+1416,Godlan,HTTPError,406,http://www.godlan.com/
+1418,Enviance Remedy Interactive,Duplicate, ,See Enviance
+1438,Adix,Decode Error, ,http://www.adix.be/fr/index.php
+1458,idi billing,HTTPError,406,http://www.idibilling.com/
+1462,BitCalm,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://bitcalm.com/
+1463,MaintenanceNet,HTTPError,500,http://www.maintenancenet.com/
+1465,Kelyan,HTTPError,403,www.netteam.it
+1468,eBooks in Motion,HTTPError,406,http://ebooksinmotion.com/
+1471,MixGenius,HTTPError,404,http://mixgenius.com/
+1474,Ciel,HTTPError,404,http://www.ciel.ro/cielen.ASPx
+1475,OBIC Business Consultants,Duplicate, ,See OBC
+1481,Accela Public Stuff,Duplicate, ,See Accela
+1482,Accela Springbrook,Duplicate, ,See Accela (2)
+1489,Day1 Solutions,HTTPError,406,http://day1solutions.com/
+1504,Cerillion Net Solutions,Duplicate, ,See Cerillion
+1510,Cerillion Ubisense,Duplicate, ,See Cerillion (2)
+1514,Nemetschek,HTTPError,404,http://www.nemetschek.com/en/home.html
+1516,artegic AG,HTTPError,404,http://www.artegic.de/eCRM/DE/Startseite/0cn.html
+1517,Powerise,Decode Error, ,http://www.powerise.cn/english/index.htm
+1524,Wolf Frameworks,Server didn't send data, ,http://www.wolfframeworks.com/
+1525,Pansky,Decode Error, ,http://www.pansky.com.cn/english/index.htm
+1526,M2Soft,HTTPError,404,http://www.m2soft.co.kr/english/com_01_intro_04_history.ASP
+1532,Kingstar Winning,HTTPError,404,http://www.winning.com.cn/default.ASPx
+1538,Comax,Decode Error, ,https://www.comax.co.il/default_e.ASP
+1545,PCI Enterprises,HTTPError,406,http://www.pcigeomatics.com/
+1546,Primeur,HTTPError,404,http://www.primeur.com/en/
+1559,Kocsistem,HTTPError,404,http://www.kocsistem.com.tr/eng/default_High.ASP
+1560,Geanet,Decode Error, ,http://www.geanetondemand.com/es/home
+1561,Global Software,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.globalsoftware.com/
+1562,Symphony Technology IBS,HTTPError,404,http://www.ibs.net/en/
+1563,Systex,HTTPError,404,http://www.systex.com.tw/english/index.ASP
+1565,China Telecom SZ SaaS,Decode Error, ,www.szsaas.cn
+1576,Creawor,HTTPError,404,http://www.creawor.com/html/index.jsp
+1587,Civis Analytics,Decode Error, ,https://civisanalytics.com/
+1591,Foxtail Marketing,HTTPError,406,http://foxtailmarketing.com/
+1592,Greensuite,HTTPError,406,http://mygreensuite.com/about-greensuite/
+1607,HealthCrowd,HTTPError,403,https://www.healthcrowd.com/
+1609,Talus Holdings Colony Logic Gumiyo,HTTPError,503,http://corporate.gumiyo.com/
+1621,AlgoValue,HTTPError,521,https://www.algovalue.com/Home/
+1639,Indri,HTTPError,406,http://indri.co/
+1649,Cision Viralheat,Duplicate, ,See Cision
+1652,FusionOps,HTTPError,404,http://www.fusionops.com/
+1655,Intuit Playbook HR,Duplicate, ,See Intuit
+1656,Enverro (formerly PRM),HTTPError,404,http://www.enverro.com/
+1660,Gigwell,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.bookongigwell.com/
+1671,Fieldwire,Decode Error, ,http://www.fieldwire.net/
+1675,Glassdoor,HTTPError,405,http://www.glassdoor.com/index.htm
+1685,iModules Orgsync,Duplicate, ,See imodules
+1688,Cost Optics,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.costoptics.com/
+1691,Dashbell,Server didn't send data, ,http://www.dashbell.com/
+1694,AppSoft,URLError ,'no host given',http:///www.appsoft.de
+1705,Kerio,HTTPError,302,http://www.kerio.com/
+1709,Pentaprise GmbH,Decode Error, ,http://www.pentaprise.de
+1723,i-Accountpro,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://i-accountpro.com/index.html
+1724,Dynaware,HTTPError,404,http://www.dynaware.com/
+1725,ECA Software,Decode Error, ,http://www.eca-software.de
+1728,ISO Enterprise,HTTPError,404,"http://www.isoenterprise.com/isocrm/hisows_portal.ASPx?1,1,1,,0,0,0,,1"
+1736,embraase,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.embraase.com/
+1744,JRapid,Decode Error, ,http://www.jrapid.com/platform/about.html
+1747,Modit,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",https://mod.it/welcome
+1759,PASARY Marketplaces,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://pasary.com/
+1774,Orkeo,HTTPError,406,http://www.orkeo.com/
+1779,Globa.li,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",https://www.globa.li/
+1780,Bazingo,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://bazingo.com/
+1786,Inswave,HTTPError,404,http://www.inswave.com/inswave/eng/index.html
+1787,Dream Security,HTTPError,403,http://www.dreamsecurity.com/english/index.ASP
+1789,LinkedIN lynda.com,Duplicate, ,See LinkedIN
+1796,PressPad,HTTPError,406,http://www.presspadapp.com/
+1799,Offshoot Resurva,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://offshoot.com/
+1814,Kaseya Zyrion,Duplicate, ,See Kaseya
+1817,Cloudsafe,HTTPError,404,https://secure.cloudsafe.com/login/
+1821,Exa,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.exa.com/
+1823,Health Hiway,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.healthhiway.com/
+1831,Connexient,HTTPError,403,http://connexient.com/
+1848,Mix Telematics,HTTPError,403,http://www.mixtelematics.com/
+1850,Zuora Frontleaf,Duplicate, ,See Zuora
+1851,Marin Software SocialMoov,Duplicate, ,See Marin
+1855,Nearway,Decode Error, ,https://www.nearway.com/
+1868,CallTree Pro,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",https://calltreepro.com/
+1872,PunchTab,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.punchtab.com/
+1882,Colongy Logic,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.colonylogic.com/approach/
+1899,Tritech Tiburon,Duplicate, ,See Tritech
+1915,Callida Energy,HTTPError,406,http://www.callidaenergy.com/
+1918,OpenSilo,HTTPError,404,http://www.opensilo.co/
+1932,pepperbill GmbH,HTTPError,404,http://www.pepperbill.com/de
+1933,Owiwi P.C,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.owiwi.gr/
+1936,Mapidy,HTTPError,502,http://mapidy.com/
+1959,Technology Partners Imagine,HTTPError,403,http://www.imagineteam.com/
+1963,Prospectvision,Decode Error, ,http://www.prospectvision.com/
+1965,UL Workplace,HTTPError,404,http://www.ulworkplace.com/products/puresafety-safety-management/
+1984,Onecloud software,HTTPError,406,http://www.onecloudsoftware.com/
+1987,surDOC surMD,Decode Error, ,https://www.surdoc.com/
+1988,Lufthansa Systems AG ,Duplicate, ,See Lufthansa
+1994,Purple Forge Corp,Server didn't send data, ,http://www.purpleforge.com/
+2007,SCI Solutions RCM,Decode Error, ,http://www.scisolutions.com/
+2009,Qualifacts Systems Inc.,HTTPError,406,http://www.qualifacts.com/
+2018,Pendo.io,Decode Error, ,http://www.pendo.io/
+2029,Proofpoint Emerging threats,Duplicate, ,See proofpoint
+2044,NeuralSoft,HTTPError,404,https://www.neuralsoft.com/home-eng
+2054,Inbus,Decode Error, ,www.inbus.co.kr
+2063,OS88,Decode Error, ,www.os88.com
+2067,Integration Point/PSI,Decode Error, ,http://www.integrationpoint.com/index.html
+2071,Kongyoung Dbm,Decode Error, ,www.00db.co.kr
+2077,Mobile086,Decode Error, ,www.mobile086.cn
+2082,IFCA,HTTPError,403,http://www.ifca.com.my/index.html
+2092,Global Groupware Solutions Ltd,HTTPError,403,http://www.employwise.com/
+2109,InterSystems,Duplicate, ,See Misys
+2114,IAS,Decode Error, ,http://www.iascon.de/
+2140,Cloudjutsu,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",https://www.cloudjutsu.com/
+2144,GTEN Technologies Pvt. Ltd.,HTTPError,406,http://gtentechnologies.com/
+2162,SADA,HTTPError,403,https://www.sadasystems.com/
+2165,Software Innovation,HTTPError,404,http://www.software-innovation.com/en/pages/default.ASPx
+2172,Flimp Media,HTTPError,406,http://www.flimp.net/
+2173,Geekcrowd Krowdify,Server didn't send data, ,http://www.krowdify.com/
+2177,Contentful,Decode Error, ,https://www.contentful.com/
+2179,Capita Smartmate,Duplicate, ,See Capita
+2182,Revitas,Server didn't send data, ,http://www.revitas.com/
+2185,"Mixpo Shopigniter, Inc.",Server didn't send data, ,http://www.shopigniter.com/
+2191,Focus Telecom,Duplicate, ,See FIS
+2211,PTC ColdLight Solutions,Duplicate, ,See PTC
+2218,ClaraStream,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.clarastream.com/
+2220,Missler Software,HTTPError,404,http://www.topsolid.com/company/profile.htm
+2230,FlexSystem,Decode Error, ,http://www.flexsystem.com/default_e.htm
+2232,Ublys,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.ublys.com/HomePage/home.php
+2233,Focus Softnet,HTTPError,404,http://www.focussoftnet.com/home.html
+2243,Sonda,HTTPError,404,http://www.sonda.com/eng/history.html
+2244,Ofisis,Decode Error, ,http://www.ofisis.com.pe/
+2261,Paypal,HTTPError,403,paypal.com
+2273,unitax,Decode Error, ,http://unitax.net/
+2275,CollectPro,Server didn't send data, ,http://www.mycollectpro.com/
+2276,Passport,HTTPError,406,http://www.pass-port.com/
+2279,Zilicus,Decode Error, ,http://zilicus.com/
+2280,Crowdfynd,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://www.crowdfynd.com/
+2281,Qualiac,Decode Error, ,http://www.qualiacgroup.com/
+2282,FleetNow,Decode Error, ,http://www.fleetnow.net/
+2284,SD Worx COBRA,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://www.cobra.nl/
+2287,Dezolve,HTTPError,406,http://www.dezolve.com/prod1/
+2291,msg life,HTTPError,404,https://www.msg-life.com/en/a-leader-in-insurance-technology-solutions/
+2298,Dylog,Incomplete Read Error, ,http://www.dylog.it/home.ASPx
+2303,Singlee,Decode Error, ,http://www.singlee.com.cn/english/main.ASP
+2304,InteQ Corporation,Decode Error, ,http://www.inteqsolutions.com/html/factSheet.htm
+2310,Nucleus Software,HTTPError,404,http://www.nucleussoftware.com/home.htm
+2311,Free LAND,Server didn't send data, ,http://free-land.uni.me/
+2315,RegulatoryBinder,HTTPError,404,http://www.complion.com/about-us/
+2327,LogiGear,HTTPError,404,http://logigear.com/home.html
+2343,Telefonica o2,Duplicate, ,See Telefonica
+2344,Waterford Technologies,HTTPError,406,http://www.waterfordtechnologies.com/
+2359,Haloweb,Decode Error, ,https://www.haloweb.co.za/
+2361,FabriQate,HTTPError,522,http://www.fabriqate.com/
+2377,DedaGroup ICT Sintecop,HTTPError,404,http://www.dedagroup.it/static/default/Dedagroup-ICT-Network-923.ASPx
+2388,Ender Labs,URLError ,"SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)')",https://enderlabs.com/
+2399,Driveback.ru,HTTPError,404,http://www.driveback.ru/en/
+2412,Datananas,HTTPError,302,https://www.datananas.com/en/
+2415,Adchemix,HTTPError,406,www.adchemix.com
+2422,CADWOLF,HTTPError,406,http://www.cadwolf.com/
+2427,Crisply INC,URLError ,"gaierror(8, 'nodename nor servname provided, or not known')",http://crisply.com/
+2431,Billingstreet,Server didn't send data, ,http://billingstreet.com/
+2438,ZenSuite,HTTPError,403,https://zensuite.net/
