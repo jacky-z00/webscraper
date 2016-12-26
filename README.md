@@ -2,8 +2,11 @@
 
 **************DEPENDENCIES**************
 ---------------------------------
-doxygen|pandas|urllib.request|urllib.parse
+doxygen|pandas|urllib.request|urllib.parse|openpyxl|csv|ssl|os
 
+**************INSTRUCTIONS FOR USE**************
+---------------------------------
+/instructions for use/
 **************BASIC STEPS**************
 ---------------------------------
 Decide on and set up an environment to work in, possibly flask, that we are all comfortable with

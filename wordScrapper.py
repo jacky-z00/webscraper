@@ -1,4 +1,4 @@
-import urllib.request
+from urllib.request import urlopen
 import urllib.error
 import ssl
 from bs4 import BeautifulSoup
@@ -18,7 +18,7 @@ def word_index(site):
 
     
     useless_words = ['the', 'contact', 'us', 'and', 'subscribe', 'to', 'on', 'a', 'our', 'visit', 'all', 'rights', 'reserved',
-                'your', 'for', 'more', 'read', 'their', 'with', 'every', 'you', 'what', 'why']
+                'your', 'for', 'more', 'read', 'their', 'with', 'every', 'you', 'what', 'why', 'new', 'how']
 
     def text_scrapper(site):
         hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
