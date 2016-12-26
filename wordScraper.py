@@ -6,36 +6,42 @@ import re
 import collections
 
 def word_index(site):
-        
+    
+    # Words we don't care about
+    useless_words = ['the', 'contact', 'us', 'and', 'subscribe', 'to', 'on', 'a', 'our', 'visit', 'all', 'rights', 'reserved',
+                'your', 'for', 'more', 'read', 'their', 'with', 'every', 'you', 'what', 'why', 'how', 'new']  
+    
+    #fix certain links
     def http_to_site(site):
         if site[:4] != 'http':
             site = 'http://' + site
         return site
     site = http_to_site(site)
+    
+    # ignore words shorter than 3 letters, numbers, and words in useless_words
     def validate_word(word):
         if len(word) > 2 and not word[0].isdigit() and word not in useless_words:
             return word
 
+# Function to scrape text
+    def text_scraper(site):
+        
+    # Header to bypass firewalls
     
-    useless_words = ['the', 'contact', 'us', 'and', 'subscribe', 'to', 'on', 'a', 'our', 'visit', 'all', 'rights', 'reserved',
-                'your', 'for', 'more', 'read', 'their', 'with', 'every', 'you', 'what', 'why', 'new', 'how']
-
-    def text_scrapper(site):
         hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
        'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
        'Accept-Encoding': 'none',
        'Accept-Language': 'en-US,en;q=0.8',
        'Connection': 'keep-alive'}
+    
+        req = urllib.request.Request(site, headers=hdr) # adds headers to request website
+        
+        context = ssl._create_unverified_context() # allow access of unverified certificate websites
 
-        req = urllib.request.Request(site, headers=hdr)
-        context = ssl._create_unverified_context()
-        try:
-            page = urlopen(req, context = context)
-        except urllib.error.URLError:
-            print(e.fp.read())
+        page = urlopen(req, context = context) # opens site
 
-        soup = BeautifulSoup(page,"lxml")
+        soup = BeautifulSoup(page,"lxml") # get html from site
 
     # kill all script and style elements
         for script in soup(["script", "style"]):
@@ -53,11 +59,15 @@ def word_index(site):
         
         return text
 
-    words_index =  re.findall(r'\w+', text_scrapper(site).lower())
+    words_index =  re.findall(r'\w+', text_scrapper(site).lower()) # find only words and make them lower case
+    
     word_in_text = [validate_word(word) for word in words_index if validate_word(word) is not None]
-    word_indexing = collections.Counter()
+    
+    word_indexing = collections.Counter() # add each word to counter
+    
     for word in word_in_text:
         word_indexing[word] += 1
+        
     return collections.Counter(word_in_text)
 
 def word_scrape_list_of_sites(list_of_sites):
@@ -66,4 +76,5 @@ def word_scrape_list_of_sites(list_of_sites):
     for index in list_index:
         total_index.update(index)
     return total_index
-    
+
+
