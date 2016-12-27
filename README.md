@@ -13,6 +13,7 @@ and add the name of the npy file in data you're interested in.
 excelToCo() imports from an excel
 coUpdateHTML() takes a list of Cos and updates them with HTML scraping
 coUpdateSelenium() takes a list of Cos and updates the error-ones with Selenium scraping
+word_index() takes a list of Cos and returns a list of sublists of the form [word, frequency]
 **************BASIC STEPS**************
 ---------------------------------
 Decide on and set up an environment to work in, possibly flask, that we are all comfortable with

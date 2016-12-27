@@ -19,6 +19,9 @@ from ssl import CertificateError #Strange error catch and bypass
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from bs4 import BeautifulSoup
+import re
+import collections
 
 
 class Co:
@@ -132,6 +135,57 @@ def coUpdateSelenium(colist, lim = -1, outpath = None):
                                             #if no name is provided it uses the date
     return colist
 
+def word_index(colist):
+
+    # Words we don't care about
+    useless_words = ['the', 'contact', 'us', 'and', 'subscribe', 'to', 'on', 'a', 'our', 'visit', 'all', 'rights', 'reserved',
+                'your', 'for', 'more', 'read', 'their', 'with', 'every', 'you', 'what', 'why', 'how', 'new']
+
+    # ignore words shorter than 3 letters, numbers, and words in useless_words
+    def validate_word(word):
+        if len(word) > 2 and not word[0].isdigit() and word not in useless_words:
+            return word
+
+# Function to scrape text
+    def text_scraper(site):
+
+        soup = BeautifulSoup(site,"html.parser") # get html from site
+
+    # kill all script and style elements
+        for script in soup(["script", "style"]):
+            script.extract()    # rip it out
+
+    # get text
+        text = soup.get_text()
+
+    # break into lines and remove leading and trailing space on each
+        lines = (line.strip() for line in text.splitlines())
+    # break multi-headlines into a line each
+        chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+    # drop blank lines
+        text = '\n'.join(chunk for chunk in chunks if chunk)
+
+        return text
+
+    word_indexing = collections.Counter() # add each word to counter
+    for co in colist:
+        if co.content != []:
+
+            words_index = re.findall(r'\w+', text_scraper(co.content[1]).lower()) # find only words and make them lower case
+
+            word_in_text = [validate_word(word) for word in words_index if validate_word(word) is not None]
+
+
+
+            for word in word_in_text:
+                word_indexing[word] += 1
+
+    word_indexing = [[i, word_indexing[i]] for i in word_indexing if word_indexing[i] > 10]
+    return word_indexing
+    #collections.Counter(word_in_text)
+
+
+
 def npyImport(name = 'binaries.npy'):
     curr_dir = os.getcwd() #gets the current directory
     return np.load(curr_dir + os.sep + 'data' + os.sep + name)
@@ -140,7 +194,7 @@ def npyImport(name = 'binaries.npy'):
 
 """Here is the main workflow"""
 #r = excelToCo()
-#r = coUpdateHTML(r)
+#r = coUpdateHTML(r, lim = 5)
 
 
 
