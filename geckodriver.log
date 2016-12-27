@@ -1,0 +1,97 @@
+1482827376895	geckodriver	INFO	Listening on 127.0.0.1:59754
+1482827377882	mozprofile::profile	INFO	Using profile path /var/folders/yr/2lct7x692757pj66gjwb_s_80000gn/T/rust_mozprofile.9qblDXVDg29O
+1482827377882	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1482827377895	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59764
+1482827378521	Marionette	INFO	Listening on port 59764
+1482827379516	Marionette	INFO	startBrowser 1823a994-60a5-7c44-a115-99c110c96775
+[Child 6934] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 677
+[Child 6934] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 677
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x820007,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460112,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 30: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460112,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 30: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460112,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 30: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0043,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1482827431609	geckodriver	INFO	Listening on 127.0.0.1:60040
+1482827432600	mozprofile::profile	INFO	Using profile path /var/folders/yr/2lct7x692757pj66gjwb_s_80000gn/T/rust_mozprofile.6nHn1KZCeh5R
+1482827432601	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1482827432603	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60049
+1482827433045	Marionette	INFO	Listening on port 60049
+1482827433904	Marionette	INFO	startBrowser cae4f674-5e10-a74f-993f-e9a7e8134319
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x820007,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460112,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 30: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460112,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 30: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460112,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 30: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0043,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+1482827492452	geckodriver	INFO	Listening on 127.0.0.1:60309
+1482827493457	mozprofile::profile	INFO	Using profile path /var/folders/yr/2lct7x692757pj66gjwb_s_80000gn/T/rust_mozprofile.qCJmb3exWFh0
+1482827493458	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1482827493461	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60318
+1482827493903	Marionette	INFO	Listening on port 60318
+1482827494746	Marionette	INFO	startBrowser 58857184-2575-9049-b33e-79443e332780
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460112,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 30: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460112,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 30: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0043,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+1482827554624	geckodriver	INFO	Listening on 127.0.0.1:60553
+1482827555628	mozprofile::profile	INFO	Using profile path /var/folders/yr/2lct7x692757pj66gjwb_s_80000gn/T/rust_mozprofile.UbBKWgfhNs2b
+1482827555629	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1482827555631	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60562
+1482827556048	Marionette	INFO	Listening on port 60562
+1482827556917	Marionette	INFO	startBrowser 7e25535e-fb83-5f4b-901c-6b697edfb118
+JavaScript warning: https://c.s-microsoft.com/en-us/CMSScripts/script.jsx?k=7F1B8B51-548D-40BB-E21B-D19E5566BF14, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6967] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 677
+[Child 6967] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 677
+[Child 6967] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 6967] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1482827848038	geckodriver	INFO	Listening on 127.0.0.1:61512
+1482827849044	mozprofile::profile	INFO	Using profile path /var/folders/yr/2lct7x692757pj66gjwb_s_80000gn/T/rust_mozprofile.zoLZaOR7Swgv
+1482827849045	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1482827849047	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61522
+1482827849501	Marionette	INFO	Listening on port 61522
+1482827850361	Marionette	INFO	startBrowser 7a0ad02c-5530-0b42-a5dc-df3027824850

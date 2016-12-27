@@ -2,17 +2,21 @@
 
 from urllib.request import Request, urlopen #Modules used to access websites with their URLs
 from urllib.error import URLError, HTTPError #Modules used to deal with errors with accessing websites
-from http.client import IncompleteRead #
-from ssl import CertificateError #
+from http.client import IncompleteRead #Strange error catch
+from ssl import CertificateError #Strange error catch and bypass
 import openpyxl #library for pulling data from excel files
 import csv #library for outputting csv files
 import ssl #deals with SSL Certificate Errors
 
 
-# spreadsheet = openpyxl.load_workbook('Test.xlsx')
-# data = spreadsheet.get_sheet_by_name('Sheet1')
+"""
+Use
+-----------
 
-spreadsheet = openpyxl.load_workbook('2015 CloudShare - December Final.xlsx') #pulls data directly from excel file
+
+"""
+
+spreadsheet = openpyxl.load_workbook('data/2015 CloudShare - December Final.xlsx') #pulls data directly from excel file
 data = spreadsheet.get_sheet_by_name('Data') #specifies which sheet to pull data from
 
 
@@ -56,11 +60,11 @@ for i in range(len(websites)): #iterates through every website
 		context = ssl._create_unverified_context() #bypasses SSL Certificate Verfication (proabably not a good idea, but it got more sites to work)
 		req = Request(websites[i], headers = {'User-Agent': 'Mozilla/5.0'}) #changing the header to Mozilla/5.0 prevents some webscraper blocking techniques
 		try:
-		
+
 		    response = urlopen(req, context = context).read() #opens the URL and returns data (in bytes)
 
 
-"""Various errors have popped up, so I set up exceptions to catch them. Should be a better way to do this."""
+#Various errors have popped up, so I set up exceptions to catch them. Should be a better way to do this.
 		except ConnectionResetError:
 			print('Server didn\'t send data')
 			textArray.append((i + 2, data.cell(row = i + 2, column = 2).value , 'Server didn\'t send data', ' ', data.cell(row = i + 2, column = 3).value))

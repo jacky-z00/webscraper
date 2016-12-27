@@ -2,11 +2,17 @@
 
 **************DEPENDENCIES**************
 ---------------------------------
-doxygen|pandas|urllib.request|urllib.parse|openpyxl|csv|ssl|os
+doxygen|pandas|urllib.request|urllib.parse|openpyxl|csv|ssl|os|time|selenium
 
 **************INSTRUCTIONS FOR USE**************
 ---------------------------------
-/instructions for use/
+Each of the functions in workflow save binary arrays as .npy files. Running any of them
+will return a list of Co objects, but will also save a binary to the data folder.
+If you want to access a binary in the data folder, use the npyImport(name='') function
+and add the name of the npy file in data you're interested in.
+excelToCo() imports from an excel
+coUpdateHTML() takes a list of Cos and updates them with HTML scraping
+coUpdateSelenium() takes a list of Cos and updates the error-ones with Selenium scraping
 **************BASIC STEPS**************
 ---------------------------------
 Decide on and set up an environment to work in, possibly flask, that we are all comfortable with
