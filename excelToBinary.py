@@ -44,7 +44,8 @@ def excelToCo(inpath = '2015 CloudShare - December Final.xlsx', outpath = 'binar
     np.save(curr_dir + os.sep + 'data' + os.sep + outpath, coList)
     return coList
 
-def coImport(path = 'binaries.bin'):
+def coImport(path = 'binaries.npy'):
+    curr_dir = os.getcwd() #gets the current directory
     return np.load(curr_dir + os.sep + 'data' + os.sep + path)
 
 
