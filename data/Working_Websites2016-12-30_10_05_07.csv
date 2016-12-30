@@ -1,0 +1,2239 @@
+Row,Provider,Website
+2,Salesforce.com,http://www.salesforce.com
+3,Intuit,http://www.intuit.com
+4,Microsoft,http://www.microsoft.com
+5,SAP,http://www.sap.com
+6,ADP,http://www.adp.com
+7,Google,http://www.google.com
+8,Oracle,http://www.oracle.com
+9,IBM,http://www.IBM.com
+10,Cisco,http://www.cisco.com
+11,Adobe,http://www.adobe.com
+12,athenahealth,http://www.athenahealth.com
+13,Citrix,http://www.citrix.com
+14,Amazon.com,http://www.amazon.com
+15,Workday,http://www.workday.com
+16,ServiceNow,http://www.service-now.com
+17,Symantec,http://www.symantec.com
+18,NetSuite,http://www.netsuite.com
+19,HP,http://www.hp.com
+20,Ultimate Software,http://www.ultimatesoftware.com
+21,RealPage,http://www.realpage.com
+22,Cox Automotive DealerTrack,http://www.dealertrack.com
+23,Dropbox,http://www.dropbox.com
+24,Constant Contact,http://www.constantcontact.com
+25,Comscore,http://www.comscore.com/
+26,OpenText,http://www.opentext.com
+27,Cerner,http://www.cerner.com
+28,EMC,http://www.emc.com
+29,Medidata Solutions,http://www.mdsol.com
+30,IntraLinks,http://www.intralinks.com
+31,Blackbaud,http://www.blackbaud.com
+32,Veeva Systems,http://www.veevasystems.com
+33,Fleetmatics Group,http://www.fleetmatics.com/about-us/18
+34,Cornerstone OnDemand,http://www.cornerstoneondemand.com/
+35,Box,http://www.box.com
+36,eClinicalworks,http://www.eclinicalworks.com/
+37,Northgate Information Solutions,http://www.northgate-is.com/
+38,Siemens,http://www.siemens.com
+39,LivePerson,http://www.liveperson.com
+40,Blackboard,http://www.blackboard.com
+41,Zoho,http://www.zoho.com
+42,Cision Vocus,http://www.cision.com/us/
+43,Bazaarvoice,http://www.bazaarvoice.com/about/
+44,Paychex,http://www.paychex.com
+45,Deltek,http://www.deltek.com/
+46,GT Nexus,http://www.gtnexus.com
+47,Apple,http://www.apple.com
+48,Demandware,http://www.demandware.com
+49,paycom,http://www.paycom.com/
+50,Allscripts,http://www.allscripts.com
+51,Intacct,http://www.intacct.com
+52,Hitachi,http://www.hitachi.com
+53,Autodesk,http://www.autodesk.com
+54,Qualys,http://www.qualys.com
+55,Ring Central,http://www.ringcentral.com/
+56,Wolters Kluwer,http://www.wolterskluwer.com/Pages/Home.ASPx
+57,Bottomline Technologies,http://www.bottomline.com/
+58,Marketo,http://www.marketo.com
+59,Visma,http://www.visma.com
+60,Trimble (Navigation),https://www.trimble.com/
+61,Benefitfocus,http://www.benefitfocus.com/about/
+62,Wix,http://www.wix.com/
+63,Genesys Telecommunications Laboratories,http://www.genesys.com/
+64,Mimecast,http://www.mimecast.com/
+65,Brightcove,http://www.brightcove.com/en/
+66,opower,http://opower.com/
+67,Zendesk,http://www.zendesk.com/
+68,Roper iTradeNetwork,http://www.itradenetwork.com
+69,SPS Commerce,http://www.spscommerce.com
+70,Reynolds and Reynolds,http://www.reyrey.com/
+71,Jive Software,http://www.jivesoftware.com
+72,Hubspot,http://www.hubspot.com
+73,Digital River,http://www.digitalriver.com
+74,Dassault Systemes,http://www.3ds.com/
+75,CA Technologies,http://www.ca.com
+76,SmartFocus,http://www.smartfocus.com/
+77,paylocity,http://investors.paylocity.com/
+78,New Relic,http://www.newrelic.com
+79,ellie mae,http://www.elliemae.com/about/news-reports/press-releases/ditech-selects-ellie-maes-encompass-mortgage-management-solution
+80,Fiserv,http://www.fiserv.com
+82,Callidus Software,http://www.callidussoftware.com
+83,Keynote Systems,http://www.keynote.com
+84,Bentley Systems Inc.,http://www.bentley.com
+85,Sabre,http://www.sabre.com/
+86,Cvent,http://www.cvent.com/
+87,Coupa,http://www.coupa.com/
+88,Unit4,http://www.unit4.com/
+89,Marin Software,http://www.marinsoftware.co.uk
+90,Rackspace,http://www.rackspace.com
+91,NEC,http://www.nec.com
+92,Thunderhead,http://www.thunderhead.com/
+93,Iron Mountain Inc.,http://www.ironmountain.com
+94,Peoplefluent,http://www.peopleclick.com
+95,Xero,http://www.xero.com
+96,Compuware,http://www.compuware.com
+97,CSC,http://www.csc.com
+98,SS&C Technologies,http://www.ssctech.com/
+99,BMC,http://www.bmc.com
+100,Yodlee,http://www.yodlee.com/
+101,Saba Software,http://www.saba.com
+102,iCIMS,http://www.icims.com/?utm_expid=60284629-22.gnIxoqRyRfKgtYLkErRs_A.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F
+103,Hightail,https://www.hightail.com/
+104,SDL International,http://www.sdl.com/
+105,AT&T,http://www.att.com
+106,WebTrends,http://www.webtrends.com
+107,five9,http://www.five9.com/about
+108,AppRiver,http://www.appriver.com
+109,Channel Advisor,http://www.channeladvisor.com/
+110,Aconex,http://www.aconex.com
+111,Acquia,http://acquia.com/
+112,Zimbra,https://www.zimbra.com/
+113,SumTotal,http://www.sumtotalsystems.com/
+114,Engine Yard,https://www.engineyard.com/
+115,Covisint,http://www.covisint.com/
+116,Dyn,http://dyn.com/
+117,Fujitsu,http://www.fujitsu.com
+118,Cegid,http://www.cegid.com
+119,Veracode,http://www.veracode.com
+120,Planview,http://www2.planview.com/
+121,ACI Worldwide,http://www.aciworldwide.com/
+122,Thomson Reuters,http://www.thomsonreuters.com
+123,Adaptive Insights,http://www.adaptiveinsights.com/homeB/?utm_expid=75930995-11.fn__mKs4QfSrUxzDwLt1TQ.1
+124,Informatica,http://www.informatica.com
+125,Teamsystem,http://www.teamsystem.com
+126,Deutsche Telekom T-Systems,http://www.telekom.com/home
+127,Lumesse,http://www.lumesse.com/us
+128,Global Relay,http://www.globalrelay.com/
+129,McKesson,http://www.mckesson.com
+130,Workfront,http://www.attask.com
+131,Kaspersky Lab,http://www.kASPersky.com
+132,SciQuest,http://www.sciquest.com
+133,SilkRoad,http://www.silkroad.com/
+134,FinancialForce.com,http://www.financialforce.com/
+135,Mzinga,http://www.mzinga.com/
+136,Epicor Software,http://www.epicor.com
+137,SugarCRM,http://www.sugarcrm.com
+139,Intel,http://www.intel.com
+140,E2Open,http://www.e2open.com
+141,Upland Software Tenrox,http://www.uplandsoftware.com/
+142,Priceline,http://ir.pricelinegroup.com/index.cfm
+143,TIBCO,http://www.tibco.com
+144,Lithium,http://www.lithium.com/
+145,Changepoint,http://www.changepoint.com/en-us/home.ASPx
+146,Mendix,http://www.mendix.com/
+147,Appian,http://www.appian.com
+148,AFAS ERP Software,http://www.afas.com/
+149,Accenture,http://www.accenture.com
+150,LANDesk Software,http://www.landesk.com/
+151,SupplyOn,http://supplyon.com/en/home.html
+152,SAS,http://www.sas.com
+153,Guidewire,http://www.Guidewire.com
+154,Zucchetti,http://www.zucchetti.it
+155,Descartes Systems,http://www.descartes.com
+156,SOASTA,http://www.soasta.com
+157,Castlight Health,http://www.castlighthealth.com/
+158,Dynamix,http://www.dynamixtechnology.net
+159,Cegedim,http://www.cegedim.com
+160,Exact,http://www.exactonline.nl/
+161,blackline,http://www.blackline.com/
+162,Works Applications,http://www.worksap.com/
+163,Jack Henry & Associates,http://www.jackhenry.com/
+164,Perfect Commerce,http://www.perfect.com/about/
+165,Kyriba,http://www.kyriba.com
+166,Esker Software,http://www.esker.com/
+167,MINDBODY,https://www.mindbodyonline.com/
+168,Egnyte,http://www.egnyte.com/
+169,Rightscale,http://www.rightscale.com/news_events/press_releases/2013/rightscale-reveals-impressive-growth-in-cloud-management-adoption.php
+170,Vocalcom,http://www.vocalcom.com/en
+171,ConnectedU,http://www.connectedu.com
+172,Alteryx,http://www.alteryx.com
+173,CollabNet,http://www.collab.net
+174,Socialtext,http://www.socialtext.com/
+175,e-conomic,http://www.e-conomic.com/about
+177,Infor,http://www.infor.com
+178,ESRI,http://www.esri.com
+179,Core Commerce,https://www.corecommerce.com/
+180,"Entrata Property Solutions International, Inc.",http://www.propertysolutions.com/
+181,Hubwoo,http://www.hubwoo.fr/
+182,Fidelity National,http://www.fisglobal.com/aboutfis
+183,Host Analytics,http://www.hostanalytics.com
+184,Lanyon,http://www.lanyon.com/
+185,Sopra Steria,http://www.sopragroup.com/
+186,Interactive Intelligence,http://www.inin.com/Pages/default.ASPx
+187,Trend Micro,http://www.trendmicro.com/us/index.html
+188,Skytap,http://www.skytap.com
+189,Huddle,http://www.huddle.com/
+190,Telstra,http://www.telstra.com.au/
+191,Accellos HighJump Software Accellos,http://www.accellos.com
+192,Smartsheet,https://www.smartsheet.com/
+193,Reval,http://www.reval.com/
+194,Flexera Software,http://www.flexerasoftware.com
+195,Synopsys,http://www.synopsys.com
+196,MYOB,http://www.myob.com
+197,FrontRange Solutions Inc.,http://www.frontrange.com/
+198,JDA Software,http://www.jda.com
+199,Mindjet,http://www.mindjet.com/
+200,Pegasystems,http://www.pega.com
+201,retarus GmbH,http://www.retarus.com/de/?ogn=de
+202,AppFolio,http://www.appfolio.com/
+203,TOTVS,http://www.totvs.com
+204,Webboost,http://www.webboost.dk/
+205,Lexmark,http://www.lexmark.com
+206,SmartBear,http://smartbear.com/
+207,Advent Software,http://www.advent.com
+208,Avaya,http://www.avaya.com/USA/
+209,Talent2 Zapper,http://www.zapper.net/about-us.ASP
+210,Kinaxis,http://www.kinaxis.com
+211,ASG Software Solutions,http://www.asg.com/
+212,Talentsoft,http://www.talentsoft.com/
+213,Absolute,http://www.absolute.com/en
+214,AOL/Mapquest,http://mapquest.com
+215,PivotLink,http://www.pivotlink.com
+216,Avisena Inc.,http://www.avisena.com
+217,Acclaris,http://www.acclaris.com
+218,Model N,http://www.modeln.com
+219,PTC,http://www.ptc.com/
+220,Barracuda,http://www.barracudanetworks.com
+221,Get Satisfaction,https://getsatisfaction.com/corp/
+222,MicroStrategy,http://www.microstrategy.com
+223,Constellation Software,http://www.csisoftware.com/
+224,Acculynk,http://www.acculynk.com/
+225,IQ Navigator,http://iqnavigator.com/
+226,SurveyMonkey,http://www.surveymonkey.com
+227,Shopatron,http://ecommerce.shopatron.com/solutions
+228,Lifelock,http://www.lifelock.com/
+229,CompuGroup Medical,http://www.cgm.com/corp/index.en.jsp
+230,Atcore,http://www.atcoretec.com/
+231,Sage,http://www.sage.com
+232,ServiceSource,http://www.servicesource.com/
+233,Selligent,http://www.selligent.com/en/
+234,ORC Software,http://www.orc-group.com/
+235,Neogrid Agentics Trace One,http://www.traceone.com
+236,Deem Rearden Commerce Inc.,http://www.deem.com/
+237,Brainshark,http://www.brainshark.com/company
+238,SaaSu,http://saasu.com/
+239,zScaler,http://www.zscaler.com
+240,Moe Delo,http://www.moedelo.org/
+241,WSO2,http://wso2.com/
+242,MobileIron,http://www.mobileiron.com
+243,WorkForce Software,http://www.workforcesoftware.com/
+244,Version One,http://www.versionone.com/home/?utm_expid=653507-26.m1ATd7-AQp21H3jQ_QB_Hg.1&utm_referrer=http%3A%2F%2Fwww.versionone.com%2Fhome%2F
+245,ClickSoftware,http://www.clicksoftware.com/
+246,Software AG,http://www.softwareag.com/corporate/default.ASP
+247,Tangoe,http://www.tangoe.com/
+248,1010data,http://www.1010data.com
+249,Pitney Bowes,http://www.pitneybowes.com
+250,DATEV,http://www.datev.de
+251,Tyler Technologies,http://www.tylertech.com/
+252,Tableau Software,http://www.tableausoftware.com/
+253,Cherwell,http://www.cherwell.com
+254,CareCloud,http://www.carecloud.com
+255,VeriSign Inc.,http://www.verisign.com/en_US/domain-names/index.xhtml
+256,Innotas,http://www.innotas.com/
+257,Wirecard,http://www.wirecard.com/
+258,Zuora,http://www.zuora.com/company/
+259,Seeburger,http://www.seeburger.com/home.html
+260,Cadence Design Systems,http://www.cadence.com/us/pages/default.ASPx
+262,Kaseya,http://www.kaseya.com/
+263,1C,http://www.1c.ru
+264,Itron,http://investors.itron.com/
+266,Kofax,http://kofax.com
+267,VMware,http://www.vmware.com
+268,Trustwave,http://www.cenzic.com
+270,Progress Software,http://www.progress.com
+271,Avast Software,http://avast.com
+272,Comverse,http://www.comverse.com
+273,Datalex,https://www.datalex.com/
+274,Easyvista,http://www.easyvista.com/en/
+275,BravoSolution,https://www.bravosolution.com/cms/us
+276,Meta4,http://www.meta4.com/
+277,Cloudlock,http://www.cloudlock.com/
+278,BloomReach,http://www.bloomreach.com
+279,D+H,http://dh.com
+280,Ping Identity,https://www.pingidentity.com/
+281,Sumo Logic,http://www.sumologic.com
+282,Schneider Electric,http://www.schneider-electric.com/ww/en/
+283,Zycus,http://www.zycus.com/
+284,Cincom Systems,http://cincom.com
+285,Fidessa,http://www.fidessa.com/
+287,Pronto,http://www.pronto.com.au
+288,Kenandy,http://www.kenandy.com
+289,Ericcson,http://www.ericsson.com/
+290,Asure,http://www.asuresoftware.com
+291,Passepartout,http://www.passepartout.net
+292,Amber Road/Management Dynamics,http://www.amberroad.com
+293,Proginov,http://www.proginov.com/
+294,Hornbill Systems,http://www.hornbill.com/
+295,Docusign,http://www.docusign.com/
+296,TranDotCom Solutions,http://www.trandotcom.com
+297,KDS,http://www.kds.com/
+298,AppDynamics,http://www.appdynamics.com/
+299,Conject,http://www.conject.com/
+300,Group Monteur Prosys,http://www.prosys.fr/
+302,Telecom Italy/Olivetti,http://www.olivetti.it
+303,Log-Net,http://www.log-net.com/
+304,Vertabase,http://vertabase.com/
+305,Planisware,http://www.planisware.com/
+306,MedAssets,http://www.medassets.com/Pages/Default.ASPx
+307,Brainloop,http://www.brainloop.de/
+308,Hyphen Solutions,http://www.hyphensolutions.com/Info
+309,Birst,http://www.birst.com
+310,update software,http://www.update.com
+311,Dell,http://www.dell.com
+312,IP-Label Newtest,http://www.ip-label.co.uk
+313,Moxie,http://www.moxiesoft.com/
+314,NetDocuments,http://www.netdocuments.com/
+315,Splunk,http://www.splunk.com
+317,Rapid7,http://www.rapid7.com/
+318,NICE SYSTEMS,http://www.nice.com/
+319,rexx systems GmbH,http://www.rexx-systems.com
+320,Aplicor,http://www.aplicor.com
+321,SugarSync,https://www.sugarsync.com/
+322,Episerver Ektron,http://www.ektron.com/
+323,Red Hat,http://redhat.com
+324,ConvergEx Group.,http://www.convergex.com/
+325,Arena,http://www.arenasolutions.com/
+326,ION Trading,http://www.iontrading.com/
+327,BT (Global Services),http://www.btplc.com/
+328,Autotask,http://www.autotask.com/home
+329,Century Link Technologies (Savvis),http://www.centurylink.com/Pages/AboutUs/
+330,Really Simple Systems Ltd,http://www.reallysimplesystems.com/
+331,JobAdder,https://jobadder.com/
+332,FreshBooks,http://www.freshbooks.com/
+333,StoneRiver,http://www.stoneriver.com/
+335,Crittercism,http://www.crittercism.com/
+336,Mulesoft,http://www.mulesoft.com/
+337,Amadeus,http://www.amadeus.com/
+338,WhiteHat Security,http://www.whitehatsec.com
+339,DealerSocket,http://dealersocket.com/
+341,K2,http://www.k2atmitec.cz
+342,EG,http://www.eguk.co.uk/
+343,Kronos,http://www.kronos.com
+345,OKTA,https://www.okta.com/
+346,Dimo Gestion,http://www.dimo-gestion.fr/vdoc/easysite/go/03r-00000l-0au/accueil
+347,Extramarks,http://www.extramarks.com/
+348,Codility,https://codility.com/
+349,SOTI,http://www.soti.net/
+350,Empower Software Solutions,http://www.fls.com
+351,BasWare,http://www.basware.com/about-us/company
+352,Magic Software Enterprises,http://www.magicsoftware.com/
+353,Wild Apricot,http://www.wildapricot.com/
+354,"amoCRM, LLC.",http://www.amocrm.com/
+355,OrangeScape,http://www.orangescape.com/
+356,Time Warner Cable Navisite,http://www.timewarnercable.com/en/residential.html
+357,CT Consulting,http://www.ctconsult.ru/
+359,BatBlue,http://www.batblue.com
+360,SpringCM,https://www.springcm.com/
+361,Sidetrade,http://www.sidetrade.com/
+362,Ascentis,http://www.ascentis.com/
+363,AppNexus Inc.,http://www.appnexus.com
+364,afb AG,http://www.afb.de
+365,Aditro,http://www.aditro.com/
+366,Talentia Software,http://www.talentia-software.com/en/
+367,Datacard,http://www.entrustdatacard.com/
+368,One Network,http://www.onenetwork.com/
+369,Prosys,http://www.prosysis.com/
+370,Deluxe Corp.,https://ww.deluxe.com/
+371,CGI Information Systems,https://www.cgi.com/en
+373,bime,http://www.bimeanalytics.com/
+374,Indicee,http://www.indicee.com/
+375,Advanced Computer Software,http://www.advancedcomputersoftware.com/
+376,OpenSpan,http://www.openspan.com/
+377,Accruent,http://www.accruent.com/
+378,Wieland Direkt Steuerberatungsgesellschaft mbH,https://www.freefibu.de/index.html
+379,Clarabridge,http://clarabridge.com/
+380,textura,http://www.textura.com/index.html
+381,Good Data,http://www.gooddata.com
+382,Astoria Software (Transperfect),http://www.astoriasoftware.com
+383,REDtechnology.com,http://www.redtechnology.com/
+384,Fortnox,http://www.fortnox.com/
+385,Accela,http://www.accela.com/
+386,Temenos,http://www.temenos.com/USA/
+387,"Levi, Ray & Shoup",http://www.lrs.com/
+388,SmileWorks Inc.,http://www.clear-works.jp/
+389,Regaction,https://www.regaction.com/en/
+390,Cybozu,http://cybozu.co.jp/
+391,Bizflow/Handysoft,http://www.bizflow.com/
+392,CBM Technologies TEDS,http://teds.com/
+393,Replicon,http://www.replicon.com/
+394,Document Management Systems,http://www.info.tatcenter.ru/
+395,Chef,http://www.getchef.com/about/
+396,Alfresco,http://www.alfresco.com/
+397,Sewobe GmbH,http://www.sewobe.de/home.html
+398,Sistemi,http://www.sistemi.com
+399,Civica,https://www.civica.co.uk/
+400,SAManage,http://www.samanage.com
+401,Fourth,http://www.fourthhospitality.com/fourth/about.ASP
+402,Rosslyn Analytics Ltd.,http://www.rosslynanalytics.com/
+403,Appirio,http://appirio.com/
+404,Aspect Enterprise Solutions,http://www.ASPectenterprise.com/
+405,EPiServer,http://www.episerver.com/
+406,123ContactForm,http://www.123contactform.com/
+408,BrightIdea,http://www.brightidea.com/
+409,Bigcommerce,https://www.bigcommerce.com/
+410,BaseCase,http://basecase.com/
+411,CrowdTwist,http://crowdtwist.com/
+412,webinar.ru,http://webinar.ru/
+413,OBIC,http://www.obic.co.jp/e/group.html
+414,Linedata Services,http://www.linedata.com/investor-relations/
+415,Splashtop,http://www.splashtop.com
+416,Liaison,http://liaison.com/
+417,NTT Data Everis Group Everilion,http://www.ilionsistemas.com
+418,Alcatel-Lucent,http://www.alcatel-lucent.com/
+419,Wipro,http://www.wipro.com/
+420,Evernote,http://evernote.com/corp/
+421,Vroman Systems FormSite,https://www.formsite.com/
+422,NP6,http://www.mailperformance.co.uk/about_us/
+423,Scribe Software,http://www.scribesoft.com
+424,OBC,http://www.obc.co.jp/
+425,NFE Brasil,http://www.nfedobrasil.com.br
+426,Moysklad,http://www.moysklad.ru/
+427,etouches,https://www.etouches.com/event-software/?utm_source=PayperClick&utm_medium=adwords&utm_campaign=70114000000uoSP
+428,CosNet,http://cosnet.com/
+429,LinkedIN,http://www.linkedin.com/about-us
+430,Yahoo,http://yahoo.com
+431,Appistry,http://www.appistry.com
+432,Axios Systems,http://www.axiossystems.com/en/home.html
+433,Avue Technologies,https://www.avuetech.com/
+434,Duzon Bizon,http://www.duzonbizon.co.kr
+435,Take Solutions,http://www.takesolutions.com/
+436,Recommind,http://www.recommind.com/
+437,Radware,http://www.radware.com
+438,attix5,http://www.attix5.com/
+439,NEOJapan,http://www.neo.co.jp/
+440,Inxmail,http://www.inxmail.com/
+441,Dialcom,http://www.dialcom.com
+442,SunGard,http://www.sungard.com
+443,Versata,http://www.versata.com/
+444,"Optimal, Inc.",http://www.optimal.com/
+445,Smartstream,http://www.smartstream-stp.com/
+446,Vendavo,http://www.vendavo.com/
+447,Forter,http://www.forter.com/
+448,eGain,http://www.egain.com/
+450,OnDemand Analysis,http://www.ondemandanalysis.com
+451,Cognizant,http://www.cognizant.com
+452,Acumatica,http://www.acumatica.com/
+453,Lenovo,http://www.lenovo.com/lenovo/us/en/our-company.shtml
+454,Solware,http://www.solware.fr/
+455,SC-Networks GmbH,http://www.sc-networks.com
+456,TechMatrix,http://www.techmatrix.co.jp/
+457,Everwin,http://www.everwin.fr/
+458,Diamante,http://www.diamante.it
+459,Business On Line Inc.,http://www.bol-net.jp/
+460,Innuity,http://innuity.com/
+461,Digimind,http://www.digimind.com/
+462,Netsuite Bronto Software,http://bronto.com/
+463,ServiceMax,http://www.servicemax.com/
+464,Brightree,http://www.brightree.com/
+465,MyGuestlist,http://myguestlist.com/
+466,Twitter,https://about.twitter.com/company
+467,LiveOps,http://www.liveops.com/
+468,Apttus,http://apptus.com/
+469,Travelport,http://www.travelport.com/
+470,healthstream,http://www.healthstream.com/
+471,Talemetry,http://talemetry.com/
+472,Plex Systems Inc ,http://www.plex.com/
+473,Bullhorn,http://www.bullhorn.com/?utm_expid=93119204-6.oWgKpItiS--e5Ex0Ln6VRw.0&utm_referrer=http%3A%2F%2Fwww.bullhorn.com%2F
+474,Zane Benefits,http://www.zanebenefits.com/
+475,Keynote Systems (HR NY),http://keynotesystems.com/
+476,Costlocker,https://costlocker.com/
+477,Bill.Com,https://www.bill.com/
+478,fairsail,http://www.fairsail.com/
+481,VinSolutions,http://www.vinsolutions.com/
+482,Navicure Inc Vertical,http://www.navicure.com/
+483,Locus Technologies,http://www.locustec.com/
+484,Cigam,http://www.cigam.com.br
+485,Touch Systems Clarity,http://touchsystems.co.uk/
+486,Mangaquest eVapt,http://www.magnaquest.com/
+487,Greytip Software,http://www.greytip.com/
+488,Total Merchant Services,http://www.groovv.com/
+489,Symphony Technology Healthcare (former McKesson EU divisions),http://symphonyhealth.com/
+490,Melbourne IT,http://www.melbourneit.com.au/
+491,Eudoweb,http://www.Eudoweb.com
+492,HTK Horizon,http://www.htkhorizon.com
+493,Synargy Synergy Marketing,http://www.synergy-marketing.co.jp/
+494,Logicalware,http://www.logicalware.com
+495,DCSL,https://www.dcslsoftware.com/
+496,Comply Serve Limited,http://www.complyserve.com/
+497,Claritum,http://www.claritum.com/
+498,myfactory GmbH,http://hosting2.myfactory.com
+499,Freematica,http://www.freematica.com/
+500,Trip Advisor,http://www.tripadvisor.com/PressCenter-c6-About_Us.html
+501,eBix,http://www.ebix.com/
+502,Img,http://www.imgsoftware.com/company/news
+503,ClearCare,http://clearcareonline.com/
+504,Practice Fusion,http://www.practicefusion.com/
+506,COINS Construction Industry Solutions,http://www.coins-global.com/
+507,Acronis,http://www.acronis.com/
+508,INFOCOM,http://lacteus.infocom-sb.jp/index.html
+509,Open Gestion,http://www.opengestion.com
+510,Aquarium Software Ltd,http://www.aquariumclaims.com/
+511,Lennox Hill Ltd,http://www.lennoxhill.co.uk/
+512,Versata IGNITE Technologies,http://www.ignitetech.com/
+513,Active Office,http://www.active-office.co.uk/
+514,BlackBerry,http://us.blackberry.com/company.html
+515,3dcart,http://www.3dcart.com/
+516,Technology One,http://www.technologyone.com/
+517,Serena,http://www.serena.com/index.php/en/
+518,Caspio,http://www.cASPio.com
+520,Superdata,http://www.superdata.com.cn/
+522,Convergys,http://www.convergys.com/
+523,Signiant,http://www.signiant.com/
+524,Cascade Human Resources Limited,http://www.cascadehr.co.uk/
+525,Siav,http://www.siavsistemi.it
+526,Defontana,http://www.defontana.com/cl/
+527,ATOSS Software,https://www.atoss.com/workforce-management-made-in-germany
+528,Codeship,https://codeship.com/
+529,HotGloo,http://www.hotgloo.com/
+530,Telerik,http://www.telerik.com/
+531,CDNetworks,http://www.cdnetworks.com/
+532,D+H Fundtech Cashtech Solutions,http://www.dh.com
+533,NKIA,http://www.nkia.co.kr
+534,Bill4Time,http://bill4time.com/
+535,Applied Voice & Speech Technologies,http://www.avst.com/
+536,Vora Group Ascendum,http://ascendum.com/
+537,Edifecs,http://www.edifecs.com/
+538,SailPoint,http://www.sailpoint.com/about-us
+539,Megaplan-IT,https://megaplanit.com/
+540,Unicorn Universe,http://unicorn.eu/
+541,Outcome,http://www.outcome.is/english/home/
+542,Yardi,http://www.yardi.com/
+543,ActiveState Software,http://www.activestate.com/
+544,OSISoft,http://www.osisoft.com/
+545,Expensify,https://www.expensify.com/
+547,Arvato Systems,http://www.bertelsmann.com/#st-1
+548,Generix Group,http://www.generixgroup.com/
+549,Good Technology,http://www1.good.com/
+551,e-vendo AG,http://www.e-vendo.de
+552,Cora Systems,http://corasystems.com/
+553,Appneta,http://www.appneta.com/about/
+554,Personal & Informatik,http://www.pi-ag.com/
+555,Symphony Technology Other Companies,http://www.symphonytg.com/
+556,Telefonica,http://www.telefonica.com/en/home/jsp/home.jsp
+557,Delovaya Sreda,http://www.sberbank.com/investor-relations?utm_source=dot_ru
+558,Motex,http://www.motex.com.au/
+559,Baidu,http://home.baidu.com/
+560,Intronis,http://www.intronis.com/
+561,Ahnlab,http://v3mss.ahnlab.com/
+562,SKB Kontur,https://kontur.ru/eng/about
+563,Uber,https://www.uber.com/
+564,Keysight Anite PLC,http://www.anite.com
+565,Avolution,http://www.avolution.com.au/
+566,Lavante,http://lavante.com/
+567,Birchstreet Systems,http://birchstreetsystems.com/
+568,LeanLogistics,http://www.leanlogistics.com/?landing=1
+569,inContact Inc.,http://www.incontact.com/
+570,Fippex,http://www.fippex.com/
+571,Lattice Engines,https://www.lattice-engines.com/
+572,Avature,http://www.avature.net/
+573,Aria systems,http://www.ariasystems.com/
+574,Avalara,http://www.avalara.com/
+575,Avionte Staffing Software,http://www.avionte.com/
+576,Ivideon,http://www.ivideon.com/
+577,"TriNet Group Inc. HR, Financial",http://www.trinet.com/
+578,LawLogix,http://www.lawlogix.com/
+579,Diasoft,http://diasoft.com/
+580,Ariette,http://www.ariett.com/
+581,Ellucian,http://www.ellucian.com/
+582,Craneware Inc,http://www.craneware.com/
+583,Aspen Technology,http://www.ASPentech.com/
+584,Attunity,http://www.attunity.com/
+585,Cynapse,http://www.cynapse.com/
+587,Bond International,http://www.bondinternationalsoftware.com/en/
+588,Hexagon,http://www.hexagon.com/en/index.htm
+590,Centrify,http://www.centrify.com/
+591,Gategroup eGate Solutions,http://www.gategroup.com/home
+592,BasicGov Systems,http://www.basicgov.com/
+593,Qualcomm,http://www.qualcomm.com/
+595,Altair Engineering,http://www.altair.com/Default.ASPx
+596,Bitam,http://kpionline.bitam.com/english/
+597,Oxseed AG,http://www.oxseed.com/
+598,Jiangmin,http://www.jiangmin.com/
+600,Aternity,http://www.aternity.com/
+601,BeamYourScreen GmbH,http://www.beamyourscreen.com
+602,Bit9,https://www.bit9.com/company/
+603,Access Group,http://www.theaccessgroup.com/
+604,Acxiom,http://www.acxiom.com
+606,VEMA,http://www.vema.cz
+607,avangate,http://www.avangate.com/online-payment-solutions/
+608,Accelerator,http://www.accsimple.com/
+609,Wrike,http://www.wrike.com/
+610,LiquidPlanner,http://www.liquidplanner.com
+611,Recurly,https://recurly.com/
+612,Jobvite,http://recruiting.jobvite.com/
+613,NeoCase,http://www.neocasesoftware.com/
+614,Synertrade,http://www.synertrade.com
+615,McGraw Hill,http://www.mcgraw-hill.com
+616,RDS,http://www.rds-software.com
+617,Zilliant Inc.,http://www.zilliant.com/
+618,Unanet Technologies,http://www.unanet.com/
+619,Bit Defender,http://www.bitdefender.com/
+620,Eptica,http://www.eptica.com/
+621,Backupify,https://www.backupify.com/
+622,Shanghai Huateng,http://www.huateng.com/en/
+624,PlanGrid,http://www.plangrid.com/
+625,MAKLERSOFTWARE.COM GmbH,http://www.maklersoftware.com
+627,eGov Strategies,http://www.egovstrategies.com
+628,Midland HR & Payroll Solutions,http://www.midlandhr.com/
+629,Panorama Software,http://www.panorama.com/business-intelligence-solutions/necto/
+630,Applied Systems,http://www1.appliedsystems.com/en-us/
+631,Proactis,http://www.proactis.com/
+632,Campus Management Corp.,http://www.campusmanagement.com/EN-US/Pages/default.ASPx
+633,ContainerAuction.com,http://containerauction.com/
+637,Basecamp/37Signals,https://basecamp.com/about
+639,Antidot,http://www.antidot.net/
+640,Telus,http://about.telus.com/community/english
+641,Integrify,http://www.integrify.com/
+642,Reasoning Global eApplications Ltd,http://www.ereasoning.com/
+643,Beeline,http://www.beeline.com
+644,Abacus Research,http://www.abacus.ch
+646,Innovation Group,http://www.innovation-group.com/home
+647,Tripwire,http://www.tripwire.com/services/standard/
+648,GE Healthcare,http://www.ge.com/
+649,Japan Media System,http://www.jm-s.co.jp/
+650,Crowd Technologies CrowdControlHQ,https://crowdcontrolhq.com/
+651,U,http://www.poweredbyu.com/
+652,MongoDB,http://www.10gen.com
+653,Central Desktop,http://www.centraldesktop.com/
+654,Asana,https://asana.com/
+655,Awareness Software,http://www.aware-soft.com/
+656,BrainEngine,http://www.brainengine.net/index.html
+657,Cognology,http://www.cognology.com.au/index.htm
+658,Every Software Solutions,http://www.everysws.com
+660,ABBYY,http://www.abbyy.com/
+661,Honeywell,http://www.honeywell.com
+662,Actian,http://www.actian.com/
+663,SBI,http://www.sbiitalia.it
+664,SnapLogic,http://www.snaplogic.com
+665,Reply,http://www.reply.eu/
+667,eFile Cabinet,http://www.efilecabinet.com
+668,OpenWave Messaging,http://owmessaging.com/
+670,Collmex GmbH,http://www.collmex.de
+671,Cognesia Intellitracker Limited,http://www.cognesia.com/
+672,Scopevisio AG,http://www.scopevisio.com/
+674,Nulogy,https://nulogy.com/
+675,Dairy.com,http://www.dairy.com/
+676,Demandbase,https://www.demandbase.com/
+678,Curata,http://www.curata.com/
+679,Zift Solutions,http://www.ziftsolutions.com/
+680,Proxyclick,http://www.proxyclick.com/
+681,MadetoWork BySide,http://www.byside.com/
+682,Qwaya,http://www.qwaya.com/
+683,Batchbook,http://batchbook.com/
+684,Greensense,http://greensense.com.au/
+685,Capillary Technologies,http://capillarytech.com/
+686,Cashier Live,https://www.cashierlive.com/
+687,Acidaes CRMnext,http://www.crmnext.com/
+688,InfoNow Channelinsight,http://channelinsight.com/
+689,eBuilder,https://www.ebuilder.com/
+690,Redi-DirectStayinFront,http://stayinfront.com/
+691,Acculynx,http://www.acculynx.com/
+692,Denisys Maple,http://denisystech.com/
+694,Equilar,http://www.equilar.com/
+696,beqom,http://beqom.com/US-en
+698,coAction.com,http://coaction.com/
+699,SmartRecruiters,https://www.smartrecruiters.com/
+700,Cezanne ,http://cezannehr.com/us/about/
+701,NextPax.com,http://www.nextpax.com/
+702,BRITC,http://www.britc.com/
+703,MEDHOST,http://www.medhost.com/
+704,Onventis,http://www.onventis.com
+705,Sopheon,https://www.sopheon.com/
+706,code42,http://www.code42.com/
+707,Amalto,http://www.amalto.com/
+708,iModules Software,http://www.imodules.com/s/1333/home-hybrid.ASPx?sid=1333&gid=1&pgid=2532
+709,Openet,http://www.openet.com/
+710,Ramco Systems,http://www.ramcoondemand.com/
+711,Decisions on Demand,http://decisionsondemand.com/
+712,Qlik,http://www.qlikview.com/
+713,Looksmart Wisenut,http://www.looksmart.com
+714,CloudBees,http://www.cloudbees.com
+715,Rally Software Development,http://www.rallydev.com/
+716,Verint Systems,http://www.verint.com
+717,Alps System Integration,http://www.alsi.co.jp/
+718,Idera,http://www.idera.com/
+720,Senior Sistemas,http://www.senior.com.br/
+721,Parasoft,http://www.parasoft.com
+723,Live World,http://www.liveworld.com/
+724,Comarch SA,http://www.comarch.com/company/
+725,Nintex,http://www.nintex.com/en-US/Pages/default.ASPx
+726,Information Builders,http://www.informationbuilders.com/
+727,Mavenlink,https://www.mavenlink.com/
+728,The Registration System (TRS),http://www.theregistrationsystem.com/
+729,Datasec GmbH,http://www.datasec.de
+730,Visionnaire,http://www.visionnaire.com.br
+731,Kingdee,http://en.kingdee.com/
+733,GlobalSCAPE,http://www.globalscape.com/
+734,Primobox,http://www.primobox.com/
+735,Trakstar (formerly Promantek),http://www.trakstar.com/
+736,Tagetik,http://www.tagetik.com/
+737,PK4,http://www.impelcrm.in
+738,Norman AS,http://www.norman.com
+739,CSGI,http://www.csgi.com/
+740,PNMsoft,http://www.pnmsoft.com/
+741,FICO,http://www.fico.com/en/Company/News/Pages/03-10-2009.ASPx
+742,Younglimwon Softlab,http://www.ksystem.co.kr/
+743,CentraStage Limited,http://www.centrastage.com/
+744,Karmasphere,http://www.karmASPhere.com
+745,Cloudyn,http://www.cloudyn.com/
+746,Freshdesk,http://freshdesk.com/
+747,MTN Business,http://www.mtnbusiness.com
+748,Ucoz,http://www.ucoz.com/
+749,IFS,http://www.ifsworld.com
+750,Newton Software,https://newtonsoftware.com/
+751,KVADOS,http://www.mycash.cz
+752,Divalto,http://www.divalto.fr/
+753,Redbooth (formerly Teambox),https://redbooth.com/
+754,eAbax,http://www.eabax.com
+755,DTTL (Deloitte),http://www2.deloitte.com/global/en.html
+756,eXo Platform,http://www.exoplatform.com/company/en/home
+757,Symphony Software SUMMUS,http://www.summussoftware.com/
+758,ERI Bancaire,http://www.eri.ch/
+759,Fortinet,http://www.fortinet.com
+760,Tally,http://www.tallysolutions.com/website/html/index.php
+761,Fiducial Informatique,http://www.fiducial.fr/
+762,Casewise,http://www.casewise.com/
+763,Exigen,http://www.exigeninsurance.com/
+764,EZSource (formerly EZLegacy),http://www.ezsource.com/
+765,Jesta I.S.,http://www.jestais.com/
+766,Core Security,http://www.coresecurity.com/
+768,Dakosy AG,http://www.dakosy.de
+769,Enghouse Systems Limited Cosmocom,http://www.enghouse.com/
+770,Verint Kana,http://www.kana.com
+771,Telesoft,http://www.telesoft.in/
+772,Astea International,http://www.astea.com/en/default.ASPx
+773,Astute Solutions,http://www.astutesolutions.com
+775,APPGEN Business Software,http://www.appgen.com/
+776,Native Data Systems Comax,http://www.comax.co.il/default_e.ASP
+778,DSC,http://www.dsc.com.tw/
+779,Software Europe,http://www.software-europe.co.uk/
+780,EBP,http://www.ebp.com/
+781,Tenable,http://www.tenable.com/
+782,EnterpriseDB,http://www.enterprisedb.com/
+783,Digia,http://www.digia.com/
+784,Outsystems,http://www.outsystems.com/
+785,Fuse Powered,https://www.fusepowered.com/
+786,XTM International,http://www.xtm-intl.com
+787,COR&FJA,http://cor.fja.com/en/
+788,Asite,http://www.asite.com
+789,JP Morgan Chase,http://www.jpmorganchase.com
+790,Salonware,http://www.salonware.de/friseur-software/
+791,Clarity OSS,http://www.clarity.com/
+792,Bravura Solutions,http://bravurasolutions.com/
+793,TakaDU,http://www.takadu.com/
+794,NCR,http://www.ncr.com/
+795,canonical,http://www.ubuntu.com/cloud
+796,Rhipe,http://www.rhipe.com/
+797,datapipe gogrid,http://gogrid.com/
+798,KidoZen,http://www.kidozen.com/
+799,Hitasoft Technologies,http://www.hitasoft.com/
+800,LuxCloud,http://luxcloud.com/
+801,SysAid Technologies ,https://www.sysaid.com/
+802,Ensim Corporation,http://www.ensim.com/
+803,Strongloop NodeFly,https://strongloop.com/
+804,iconnect,http://www.iconnect.com/#/index
+806,HomeSphere,http://www.homesphere.com/
+807,USU Software AG,http://www.usu.de/en/
+809,Go Frugal,http://www.gofrugal.com
+810,Desire2Learn,http://www.d2l.com/
+811,Content Launch,http://contentlaunch.com/
+812,Brocade Communications,http://www.brocade.com
+813,HCL,http://www.hcltech.com/
+814,Yandex,http://www.yandex.com/
+816,BlueTie,http://www.bluetie.com/
+817,Infogram,https://infogr.am/
+818,Ramius,http://www.ramius.net/
+819,dinoct,http://www.dinoct.com/
+820,Teamviewer Monitis,http://www.teamviewer.com/en/index.ASPx
+822,Feng Office,http://www.fengoffice.com/web/
+823,ZyLAB North America LLC,http://www.zylab.com/
+824,Strategy,http://www.strategysoftware.com/index.php?option=com_content&view=article&id=35&Itemid=29
+825,Cloudpay,http://www.cloudpay.net/
+827,Revionics,http://www.revionics.com/
+828,Advizor Solutions,http://www.advizorsolutions.com/
+829,IAI Shop,http://www.iai-sa.com
+830,Optier,https://optier.com/
+831,Timecentre,http://www.timecentre.com/
+832,MangoSpring,http://www.mangoapps.com/
+833,Doctor Web,http://www.drweb.com/
+834,CS&S,http://www.css.com.cn/swordcms/enpublish/entheme/static/AboutCSS/-66793025.htm
+835,Tomax Corp.,http://www.retail.net/
+836,Blueprint,http://www.blueprintsys.com/
+837,BP Logix,http://www.bplogix.com/
+838,Selectica Inc.,http://www.selectica.com/
+839,Xerox,http://www.xerox.com/
+840,Siemens Camstar Systems Inc.,http://www.camstar.com/
+841,Expandable Software Inc.,http://www.expandable.com/
+842,Safe Software,http://www.safe.com/
+843,GHX,http://www.ghx.com/
+844,Terrasoft,http://www.terrasoft.ru/
+845,Trintech Group PLC,http://www.trintech.com/
+846,Itrios itduzzit,http://www.itrios.com/company
+847,klipfolio,http://www.klipfolio.com/
+848,Kalistick,http://www.kalistick.fr/
+849,Elcom International Inc.,http://www.elcom.com/
+851,Fabasoft Group,http://www.fabasoft.com/
+852,DL Software,http://www.dlsoftware.fr/
+853,netEvidence,http://www.net-evidence.com/
+854,Softbrain,http://www.e-sales.jp/english/
+855,Optum,http://www.unitedhealthgroup.com/Businesses/UnitedHealthcare.ASPx
+857,AFS Technologies,https://www.afsi.com/
+858,Imarda,http://www.imarda.com/
+859,Hogg Robinson Fraedom Spendvision,http://www.fraedom.com/
+860,Creme Software,http://www.cremeglobal.com/
+861,Datanational eConnect,http://www.datanat.com/index.php
+862,Kayako,http://www.kayako.com/
+863,BlueCamroo,https://www.bluecamroo.com/
+865,Campayn,http://campayn.com/
+866,Expion,http://www.expion.com/
+867,EyeQuant,http://www.eyequant.com/
+868,Coosto,http://coosto.com/
+869,Boulder Logic,http://www.boulderlogic.com/
+870,Certona,http://www.certona.com/
+871,CallGate,http://callgate.us/?page_id=62&ckattempt=1
+872,ClickTale,http://www.clicktale.com/
+873,ClientWhys,http://www.clientwhys.com/
+874,ClearSlide,https://www.clearslide.com/
+875,classmarkets,http://www.classmarkets.com/
+876,LGO Crazy eCommerce,http://crazylister.com/
+877,Ematic Solutions,http://www.ematicsolutions.com/
+878,Lumiary,https://www.lumiary.com/
+879,BPMonline,http://www.bpmonline.com/
+880,Bunchball,http://www.bunchball.com/
+881,InMoment,http://www.inmoment.com/
+882,Insidesales.com,http://www.insidesales.com/
+883,InsideView,http://www.insideview.com/
+884,Medallia,http://www.medallia.com/
+885,BannerFlow,http://www.bannerflow.com/
+886,Support.com,http://support.com/
+887,NTT Dimension Data,https://www.dimensiondata.com/Global
+888,Ad Server Solutions,http://adserversolutions.com/
+890,Base,http://www.basecrm.com/
+891,Alianza,http://www.alianza.com/contact-us
+892,ComAround,http://comaround.com/
+893,Aerva,http://www.aerva.com/
+894,Online Forma pro,http://www.onlineformapro.com/
+895,Certent Equity Aministration Solutions Option Admin,http://certent.com/
+896,Chilli Factor,http://chillifactor.co.nz/
+897,World Web Technologies,http://www.webrezpro.com/
+898,Valueframe,http://www.valueframe.com/
+899,GroupCamp,http://www.groupcamp.com/
+900,24SevenOffice,http://24sevenoffice.com/
+901,Clearwater Analytics,http://clearwater-analytics.com/
+902,Clarizen,http://www.clarizen.com/
+903,Clear Books,https://www.clearbooks.co.uk/
+904,Happy Inspector,http://happyinspector.com/
+905,Whentowork,http://whentowork.com/
+906,KitOrder,http://www.kitorder.com/
+907,vorex,http://www.vorex.com/
+908,myTips,https://mytips.co/
+909,Entelo,https://www.entelo.com/
+910,JadeTrack,https://www.jadetrack.com/
+911,WebPT,https://www.webpt.com/
+912,innovantage,http://innovantage.co.uk/
+913,Nexonia,https://www.nexonia.com/
+914,Freeagent,http://www.freeagent.com/
+915,Booker,http://www.booker.com/
+916,Boomr,https://www.boomr.com/
+917,AFJC Corp,http://www.taxpreparersolutions.com/
+918,Clockspot,http://www.clockspot.com/
+919,Criteria Corp,http://www.criteria.com/?gclid=CO-7_cjd0MUCFQaPaQodUIUABA
+920,Wave Accounting Financials,https://www.waveapps.com/
+921,TalentWise,http://talentwise.com/
+922,Entic,http://www.entic.com/
+923,Megaventory,https://www.megaventory.com/
+924,Dièse Finance,http://www.diese-finance.fr/accueil/
+925,Mercatus Technologies,http://mercatus.com/
+926,"Blueleaf Wealth, Inc.",http://www.blueleaf.com/
+927,Clio,http://www.goclio.com/
+928,tier3MD,http://www.tier3md.com/
+929,hetras,http://www.hetras.com/?lang=en
+931,HR Simplifed,http://www.hrsimplified.com/
+932,Freedom Services,https://www.fsiadministration.com/
+933,Intervention Group HR Locker,http://interventionsgroup.com/
+934,Apto,http://www.aptotude.com/
+935,Buildium,http://www.buildium.com/
+936,Kareo,http://www.kareo.com/
+938,BP212.COM,http://bp212.com/
+939,MRI Software,http://www.mrisoftware.com/
+940,Open Access Technology Internatio,http://www.oati.com/
+941,Altum,https://www.altum.com/
+942,Collectionworks,http://www.collectionworks.com/Home/
+943,armanino,http://www.armaninollp.com/
+944,Findly,http://www.findly.com/home
+945,OctupUSApp Jobber,https://getjobber.com/
+946,Electronic Commerce Inc.,http://www.ecipay.com/
+947,Efficient Solutions,http://www.effisols.com/
+948,Enomina,http://www.enomina.net/
+949,Allocate Software plc,http://www.allocatesoftware.com/
+950,WorkPlace Systems International p,http://www.workplacesystems.com/
+951,xAssets,http://www.xassets.com
+953,orgavision GmbH,http://www.orgavision.com
+954,Mint Management,http://www.mint.co.za
+955,Corporate Reimbursement Services Inc,http://www.crs.com
+956,Cerillion,http://www.cerillion.com/Home
+958,ISCS,http://www.iscs.com/
+959,Greenway Medical Technologies,http://www.greenwayhealth.com/
+960,PaySpan,http://payspan.com/
+961,Logibec,http://www.logibec.com/en
+962,Multi-Systems,http://www.msisolutions.com/
+964,Dropship Commerce,http://www.dropship.com/#welcome-1
+965,Tongtech,http://www.tongtech.com/
+966,Comptel,http://www.comptel.com/
+967,ARI Network,http://arinet.com/
+968,Benner Solutions,http://www.benner.com.br
+969,Micro Focus,http://www.microfocus.com/
+970,Canon,http://www.canon.com/corporate/index.html
+973,Invovalon,http://www.inovalon.com/
+974,Hollysys,http://www.hollysys.com.sg/
+975,Corecon Technologies,http://www.corecon.com/
+976,IData,http://www.idata.com/
+977,Firm58,http://www.firm58.com/
+978,mxocare,http://www.mxocare.com/
+979,[D4H],http://www.d4h.org/
+980,Digital Physician EHR,http://digitalphysician.com/
+981,Booking Boss Pty Ltd,http://www.bookingboss.com/
+982,Corelogic,https://www.corelogic.com/default.ASPx
+983,firstronic,http://www.firstronic.com/
+984,Softwise,http://softwiseonline.com/default.ASPx
+987,EMBI,http://www.embiondemand.com/
+988,Cguros Inc.,http://www.cguros.com/
+989,ArisGlobal,http://arisglobal.com/
+990,Datacraft Solutions,http://www.datacraftsolutions.com/
+991,Affygility Solutions,http://affygility.com/
+992,Global Net Access,https://www.netdepot.com/about/
+993,Softland,http://www.softland.cl/index.ASP
+994,TCS,http://www.associationsoftware.com/aws/TCSLABS/pt/sp/home_page
+995,Coheris,http://www.coheris.com/
+996,Redwood,http://www.redwood.com/
+997,Clickbalance,https://clickbalance.com/
+998,Wally Sen Beijing Xtools,http://www.xtools.cn
+999,Avnet,http://www.avnet.com/en-us/Pages/default.ASPx
+1001,Queplix,http://www.queplix.com/
+1002,Jingoal,http://www.jingoal.com
+1003,Lessor,http://www.lessor.de/lohn-gehalt
+1004,Ultimus,http://www.ultimus.com/
+1005,Ansys,http://ansys.com/
+1007,Cleverlance,http://www.cleverlance.cz/en/Pages/default.ASPx
+1008,Solipsis Group,http://www.solipsisdocumentmanagement.com/
+1009,OpenConnect Systems,http://www.oc.com/index.jsp
+1010,Misys,http://misys.com/
+1011,Matrix42,http://www.asseco.com/
+1012,Zenoss,http://www.zenoss.com/
+1013,Hitachi HDS,http://www.hds.com/?WT.ac=us_tm_hdslogo
+1014,Open Systems Holding Corp.,http://www.osas.com/
+1016,Verdantis Zynapse,http://www.verdantis.com/
+1017,SofTech Inc.,http://www.softech.com/
+1018,IronCAD,http://www.ironcad.com/
+1019,Vertex,http://www.vertex.com/
+1020,Jitterbit,http://www.jitterbit.com/
+1021,Geometric (Technologies (formerly TekSoft)),http://geometricglobal.com/
+1022,1Spatial,http://www.1spatial.com/
+1023,Xurmo,http://www.xurmo.com/
+1024,NTT itelligence,http://www.itelligence.pl
+1025,Adello HStreaming,http://www.hstreaming.com
+1026,Calypso Technology,http://www.calypso.com/
+1027,Pearson,http://www.pearsonschoolsystems.com/
+1028,godesys AG,http://www.godesys.de
+1029,iPlanWare Ltd,http://www.iplanware.com/
+1030,Alpha Software,http://www.alphasoftware.com/
+1031,Chase Cooper,http://www.chasecooper.com/
+1032,Financial Sciences Corp.,http://www.fisci.com/
+1033,PSI,http://www.psipenta.de
+1035,iLost,https://ilost.co/
+1036,PharmaSys Ltd,http://www.pharmasysuk.com/
+1037,Prognoz,http://www.prognoz.com/
+1038,PayGlobal,http://www.payglobal.com/
+1039,Targit,http://www.targit.com/en
+1040,iWeb Technology Solutions,http://www.iweb.co.in
+1041,Logo Business Solutions,http://support.logo.com.tr/index.php/en
+1042,AccTech Systems,http://www.acctech.biz
+1043,iSqFt,http://www.isqft.com/start/
+1045,3Scale,http://www.3scale.net/
+1046,RealNetworks,http://www.realnetworks.com/
+1047,Aspose,http://www.ASPose.com/
+1048,Unisys,http://www.unisys.com
+1049,AVEVA Group,http://www.aveva.com/en.ASPx
+1050,Blunet,http://www.blunet.it
+1051,Vitria Technology,http://www.vitria.com
+1052,imageeo,http://imageeo.com/site/
+1053,Hubdoc,http://hubdoc.com/
+1054,AgilePoint,http://agilepoint.com/
+1055,Joyent,http://www.joyent.com/
+1056,M-Files,http://www.m-files.com/en
+1058,Oxatis Actinic,http://www.oxatis.com/OxLicense.ASP?PGFLngID=1
+1059,Hi Sun,http://www.hisun.com.hk/eng/about/index.htm
+1060,hootsuite,https://hootsuite.com/?icn=primtopnav&ici=Logo
+1061,ONTRAPORT,https://ontraport.com/
+1062,Helprace,http://helprace.com/
+1063,netFactor,http://netfactor.com/
+1065,HeyBubble,https://www.heybubble.com/
+1066,Nanigans,http://www.nanigans.com/
+1067,NationBuilder,http://nationbuilder.com/
+1068,PNI Digital Media ,http://www.pnimedia.com/
+1069,Navatar Group,http://www.navatargroup.com/
+1071,Order Dynamics eCommera,http://www.orderdynamics.com/
+1072,Payscale,http://www.payscale.com/
+1073,HRBoss,https://hrboss.com/?ver=2&utm_expid=76762473-4.QUSSyYnISPODxPJlvjyX5w.1
+1074,HireVue,http://hirevue.com/
+1075,Propertybase,http://www.propertybase.com/
+1076,NEOGOV,https://www.neogov.com/
+1077,TBLox,http://www.tblox.com
+1078,Inbox Health,https://inboxhealth.com/
+1079,PageUp People HCM,http://www.pageuppeople.com/
+1080,Intalio,http://www.intalio.com/
+1082,Bugsnag,https://bugsnag.com/
+1083,DMTI Spatial Inc.,http://www.dmtispatial.com/
+1084,V-Cube,http://www.vcube.co.jp/
+1086,JetBrains,http://www.jetbrains.com/
+1087,iCare,https://www.icare.com/
+1088,Infinite Campus,https://www.infinitecampus.com/
+1089,new galexy,http://www.newgalexy.com/
+1090,Accelops,http://www.accelops.com/?gclid=CKHj5Iav08YCFcQUHwodCyUCEA
+1091,myworkspace,http://myworkspace.com
+1092,NewsWhip,http://www.newswhip.com/
+1093,Yellowfin,http://www.yellowfinbi.com
+1094,RedisLabs (formerly Garantia Data),http://www.garantiadata.com
+1095,Proofpoint,http://www.proofpoint.com
+1096,Trillium Software,http://www.hartehanks.com/
+1097,Artesian Solutions,http://www.artesiansolutions.com
+1098,iVirtua,http://www.ivirtuagroup.com.br/
+1099,ANGOSS Software International Ltd.,http://www.angoss.com/
+1100,Vasco,http://www.vasco.com/
+1101,Global Micro,http://www.globalmicro.co.za/
+1102,Meltwater Group,http://www.meltwater.com/
+1103,DNN DotNetNuke,http://www.dnnsoftware.com/
+1104,Ultra Serve,http://www.ultraserve.com.au
+1105,Mtivity,http://www.mtivity.com
+1106,Bluelock,http://www.bluelock.com/
+1107,Actiance (formerly FaceTime),http://www.actiance.com/
+1108,Data Expedition,http://www.dataexpedition.com/
+1109,Pointwise Inc.,http://www.pointwise.com/index.shtml
+1110,Kony Solutions,http://www.kony.com/
+1111,Aranda Software,http://arandasoft.com/
+1112,Greytip Online,http://www.greytip.in/
+1113,Ksign,http://www.ksoftware.net/
+1114,NovaStor,http://www.novastor.com/en
+1115,BackOffice Associates,http://www.boaweb.com/
+1116,WingArc 1st,http://www.wingarc.com/english/
+1117,LMC,http://www.lmcsoftwaresolutions.com/
+1119,Heuthes,http://www.heuthes.pl
+1120,Eurodata,http://de.eurodata.eu/
+1121,Cap Gemini,http://www.capgemini.com/
+1122,Biuro Projektowania Systemw Cyfrowych S.A. (BPSC S.A.),http://www.bpsc.com.pl/
+1123,Foundation Software,http://www.foundationsoft.com/
+1124,MainOne,http://www.b2b.cn
+1125,3M,http://solutions.3m.com/wps/portal/3M/en_US/WW3/Country/
+1126,FPX Glider,https://glider.com/
+1127,Ciber Group Xnear,http://www.cibergroup.cl/
+1128,Formula Telecom Solutions,http://www.fts-soft.com/
+1129,Bearing Point,http://www.bearingpoint.com/en-other/
+1130,Nokia,http://www.nokia.com/global/about-us/
+1131,NTT IT,http://www.ntt-it.co.jp/
+1132,Sumisho Computer Systems Corp.,http://www.scsk.jp/
+1133,Justlogin,http://www.justlogin.com/
+1134,Netlojistik,http://www.netlojistik.com/#/home/
+1135,Apexnova GmbH,http://www.apexnova.de/
+1136,Solmicro,http://www.solmicro.com/
+1137,Credys,http://www.credys.fr
+1139,Vindicia,http://www.vindicia.com/
+1140,Loadspring,http://www.loadspring.com/
+1141,Vora Group,http://www.voragroup.com/
+1142,Impel,http://www.impelops.com/
+1143,TotalSoft,http://www.totalsoft.ro/index
+1145,ESS (Enterprise Software Systems),http://cresync.esssoftware.com/index.php
+1146,Price Waterhouse,http://www.pwc.com/us/en/index.jhtml
+1147,Thailand Wealth Management Systems,http://www.wealth.co.th/about.php
+1148,CSL! Systran SA,http://www.systransoft.com/
+1149,Aderant (formerly of Solution 6),http://www.aderant.com/
+1150,VBA,http://vbasoftware.com/
+1152,Blackhawk Networks Achievers,http://blackhawknetwork.com/
+1154,nexB,http://www.nexb.com/
+1155,Sahasvat iFreeTools,http://www.sahasvat.com/
+1158,Collective Idea,http://collectiveidea.com/
+1159,Praetorian Digital,http://www.praetoriandigital.com/
+1160,Killer Beaver,http://b.killerbeaver.net/
+1161,Infinite Software,http://www.infinitesoftware.eu/
+1162,Connect First,http://www.connectfirst.com/
+1163,Bright Market FastSpring,http://www.fastspring.com/
+1164,Nubera GetApp,http://nubera.com/
+1165,Cleverbridge eCommerce,http://www.cleverbridge.com/corporate/
+1166,Clavis Insight,http://clavisinsight.com/
+1167,C2FO,https://c2fo.com/
+1168,Poq Studio,http://poqstudio.com/
+1169,jClarity,http://www.jclarity.com/
+1170,CO3app,http://co3app.com/
+1171,Balluun,https://www.balluun.com/
+1172,Colppy,http://colppy.com/
+1173,Infostretch Corporation,http://www.infostretch.com/
+1174,Kovair Software,http://www.kovair.com/
+1175,Signavio Effektif,http://www.signavio.com/
+1176,Heirloom Computing,http://heirloomcomputing.com/
+1177,Boundary Graphdat,http://www.boundary.com/
+1178,Datadog,http://www.datadoghq.com/
+1179,Babelway,http://www.babelway.com/
+1180,MindTree,http://www.mindtree.com/
+1181,equinix nimbo,http://www.equinix.com/
+1182,VirtUSA,http://www.virtUSA.com/
+1183,ebay Magento,http://magento.com/
+1184,Pitney Bowes Borderfree ,http://www.borderfree.com/
+1185,logicworks,http://www.logicworks.net/
+1187,"53 Technology Dealicio, LLC",http://53tech.com/
+1189,Pagely®,https://pagely.com/
+1190,Shopify,http://www.shopify.com/
+1191,MarketLive,http://www.marketlive.com/
+1192,"Volusion, Inc",http://www.volusion.com/
+1193,Synage Software / Deskaway,http://www.deskaway.com
+1194,Polaris Software Lab,http://www.polarisft.com/
+1195,Logentries,https://logentries.com/
+1196,ifirma,http://www.ifirma.pl
+1197,DigiwinSoft,http://digiwinsoft.com.cn/
+1198,qualtrics,http://www.qualtrics.com/
+1199,Enplug,https://enplug.com/
+1200,Questback,http://www.questback.com/
+1201,English360,http://www.english360.com/
+1202,Grovo,http://www.grovo.com/
+1203,Grepsr,http://www.grepsr.com/
+1205,CustomShow.com,http://www.customshow.com/
+1206,EduBrite Systems,http://www.edubrite.com/oltpublish/site/cms.do
+1207,Dream Broker,https://dreambroker.com/
+1208,BunchCast,http://bunchcast.com/
+1209,Bunkr,http://bunkrapp.com/
+1210,Cloudwords,http://www.cloudwords.com/
+1211,Compass Learning eLearning,https://compasslearning.com/
+1212,docebo lms,https://www.docebo.com/
+1213,EVALS.NET,https://evals.net/
+1214,GreenBox Group Ltd,http://www.green-box.co.uk/
+1215,Easyling,https://www.easyling.com/
+1216,Accusoft,http://www.accusoft.com/
+1217,e-grou,http://www.e-grou.com/
+1218,DSG Inc.,http://www.dsg-us.com/default.ASPx
+1221,EcoTally,http://ecotally.com/
+1222,CollateBox,http://www.collatebox.com/
+1223,Gliffy,https://www.gliffy.com/
+1224,Rally Flowdock,https://www.flowdock.com/
+1225,Conceptboard,http://conceptboard.com/
+1226,Cloud Copy CloudSponge,http://www.cloudsponge.com/
+1227,10Fold CartStack,http://cartstack.com/
+1228,Customer.io,http://customer.io/
+1229,Gocus,https://gocus.com/
+1230,Coradiant Technologies,https://www.cordiant.com/home
+1231,Confr,https://confr.com/#!/
+1233,apptix,http://www.apptix.com/
+1234,PGi,http://www.pgi.com/
+1235,avepoint,http://www.avepoint.com/
+1236,GoFormz,https://www.goformz.com/
+1237,AcademicWorks,https://www.academicworks.com/
+1238,Communicator Corp,http://www.communicator.com/
+1239,Fidelis,http://www.fidelissoftwaresolutions.com/
+1240,Forkie,http://forkie.com.au/
+1241,on24,http://www.on24.com/
+1242,Agilisys,http://www.agilisys.co.uk/
+1243,Xtenza Solutions,http://www.xtenzasolutions.com/
+1244,Ascensio onlyoffice,https://www.onlyoffice.com/
+1245,palmetto technology,http://www.palmettotg.com/
+1246,Accellion,http://www.accellion.com/
+1247,JiranSoft,http://www.jiransoft.com/
+1248,Haufe,http://www.lexlive.de/StartPageLexLive.htm
+1249,eSpatial,https://www.espatial.com/
+1250,Waratek,http://www.waratek.com/
+1251,Worksoft,http://www.worksoft.com/
+1252,Norwood Systems,http://norwoodsystems.com/
+1253,Bay31,http://www.bay31.com/
+1254,CAS Software,http://www.cas-pia.de/
+1255,Caplinked,http://www.caplinked.com/
+1256,HyperOffice,http://www.hyperoffice.com/
+1257,Kyocera MOTEX,http://global.kyocera.com/
+1258,Genitor,http://www.genitor.cz/
+1259,VisionWare Plc,http://www.visionwareplc.com/
+1260,AVG Technologies,http://www.avg.com/us-en/homepage
+1261,DrumUp,http://drumup.io/
+1262,FPX (formerly Firepond),http://fpx.com/
+1263,ciphercloud,http://www.ciphercloud.com/
+1264,Kwaga,http://www.evercontact.com/
+1265,Lombard Risk Management,http://www.lombardrisk.com/
+1266,Servoy,http://www.servoy.com/
+1267,Heartland Payment Systems,http://www.heartlandpaymentsystems.com/
+1268,Experian,http://www.experian.com/
+1269,Management Controls Inc.,http://www.tracksoftware.com/company/
+1271,Sprinx Systems,http://www.sprinx.com/
+1272,Lumis,http://www.lumis.com.br/
+1273,INSTEC,http://www.instec.com/new.html
+1274,Viewpoint,http://www.viewpointcs.com/
+1275,BlueCielo,http://www.bluecieloecm.com/home
+1276,3Q Island Pacific Inc.,http://www.threeq.com.au/
+1277,3D Systems,http://www.3dsystems.com/software-solutions-overview
+1278,Jenzabar,http://www.jenzabar.com/
+1279,Maximizer Software Inc.,http://www.maximizer.com/
+1280,xTuple,https://www.xtuple.com/
+1281,Ecteon,http://www.ecteon.com/
+1282,CommVault,http://www.commvault.com
+1283,ePlus,http://www.eplus.com/Pages/default.ASPx
+1284,Vision Solutions,http://www.visionsolutions.com/
+1286,ZebraHost,http://zebrahost.net/newsite/
+1287,Anaplan,https://www.anaplan.com/
+1288,Cyfe,http://www.cyfe.com/
+1289,Ecofactor,http://www.ecofactor.com/
+1290,PredPol,https://www.predpol.com/
+1291,Circonus,http://www.circonus.com/
+1292,MedeAnalytics,http://medeanalytics.com/
+1293,domo,http://www.domo.com/
+1294,Delver Ltd,http://delver.io/
+1295,bpsnode,http://www.bpsnode.com/
+1296,DataShaka,http://www.datashaka.com/
+1297,Tom's Planner gantto,http://www.tomsplanner.com/
+1298,Omnitracs ,http://www.omnitracs.com/about-us
+1299,Comprehend Systems,http://www.comprehend.com/
+1300,Samsung SDS,http://www.samsung.com/us/aboutsamsung/
+1301,Aurea,http://www.aurea.com/index.html
+1302,Sawhney Group Execplan,http://www.sawhney.com/
+1303,OKI,https://www.oki.com/
+1305,White Information Networking,http://www.win.co.kr/Eng/index.jsp
+1306,Vanguard Software,http://www.vanguardsw.com/
+1307,Jeeves Information Systems,http://www.jeeveserp.com/en
+1308,Perfecto Mobile,http://www.perfectomobile.com/
+1309,Omnicom,http://www.communispace.com/home.ASPx
+1310,Ching Hang,http://www.chi.com.tw/
+1311,EcoRebates,http://ecorebates.com/
+1312,12Return,http://12return.com/
+1313,Arrowstream,https://www.arrowstream.com/
+1314,B2BWave,http://www.b2bwave.com/
+1315,Wizrom,http://www.wizrom.ro/en
+1317,Fyber,http://www.fyber.com/
+1318,Gogiro,http://gogiro.com/
+1319,DataSphere,http://datASPhere.com/
+1320,give2gether,http://www.give2gether.com/
+1321,AdRoll,https://www.adroll.com/
+1322,Cool Tabs,http://www.cool-tabs.com/en?force_locale=en
+1323,NewVoiceMedia,http://www.newvoicemedia.com/en-us/
+1324,Zestia,http://zestia.com/
+1325,Betaout,https://www.betaout.com/
+1326,AppGlu,http://appglu.com/
+1327,Bent Pixels,http://bentpixels.com/
+1328,BestBuzz,http://bestbuzz.bz/
+1329,aortaystems,http://www.aortasystems.com/
+1330,Netilum Affilae,https://affilae.com/en
+1331,Coolano,http://coolano.com/
+1332,Cupli Surveys,https://cup.li/en
+1333,DearLocal,http://dearlocal.com/
+1334,"Beckon, Inc.",http://www.beckon.com/
+1335,Datorama,http://www.datorama.com/
+1336,BuzzBoard,https://www.buzzboard.com/
+1337,DigitaleBox,http://digitalebox.com/
+1338,Cinchcast,http://cinchcast.com/
+1339,Velocify,http://velocify.com/
+1340,Qvidian,http://www.qvidian.com/
+1341,Act-On Software,https://www.act-on.com/
+1342,easiware,http://www.easi-crm.com/
+1343,Beanstalk Data,http://beanstalkdata.com/
+1344,AgilOne,http://www.agilone.com/
+1345,Dynamic Yield,https://www.dynamicyield.com/
+1346,CustomerSure,http://www.customersure.com/
+1347,DigitalMR,http://www.digital-mr.com/
+1348,Janrain,http://janrain.com/
+1350,Marketpath,http://www.marketpath.com/
+1351,mediaplanet,http://www.mediaplanet.com/USA/
+1352,artilium,http://www.artilium.com/
+1353,Complexity Intelligence,http://www.complexityintelligence.com/homepage
+1354,Ai2,http://www.ai2.com/
+1355,Cydec Software,http://cydec.com/
+1356,Capital ID,http://www.capitalid.com/
+1357,Bitrixsoft Bitrix24,https://www.bitrix24.com/
+1358,Jacada,http://www.jacada.com/
+1359,targetx,http://www.targetx.com/
+1360,BIS Charity Engine,http://www.bisglobal.net/
+1361,BeezUP,http://www.beezup.com/
+1362,QSI (Quality Systems Nexgen),http://www.qsii.com/
+1364,Amano Group Amano Cincinnati,http://www.amano.com/timeweb/timemain.cfm
+1365,Tata,http://tata.com/tataworldwide/index/At-home-in-the-world
+1366,Avaya Knoahsoft,https://www.knoahsoft.com/
+1367,Hinduga colibrium,http://colibriumpartners.com/
+1369,accreon,http://www.accreon.com/
+1370,Bexio easySYS,https://www.bexio.com/de-CH/
+1371,Dude Solutions Inc.,https://dudesolutions.com/
+1372,Hotschedules Red Book Connect,https://www.hotschedules.com/
+1373,PlanMill,http://www.planmill.com/
+1374,InLoox,http://www.inloox.com/
+1375,Archon,http://www.archonsystems.com/index.html
+1376,Factor Systems Billtrust,http://www.billtrust.com/
+1377,GDB5,http://www.gdb5.com/
+1378,Granatum,http://www.granatum.com.br/financeiro/
+1380,FloQast,http://www.floqast.com/
+1382,Raet,http://www.raet.com/
+1383,Cloudsourced Accounting,http://cloudsourcedaccounting.com/
+1384,Canopy Technologies,http://www.canopyoffice.com/
+1385,Expense On Demand,http://www.expenseondemand.com/international/?country=int
+1386,Busybiz,http://www.busybiz.ro/
+1387,Corebook,https://www.corebook.me
+1388,Creditera,http://creditera.com/
+1389,DATIS,http://www.datis.com/
+1390,DocDep,http://www.docdep.com/
+1391,BlackbookHR,https://www.blackbookhr.com/
+1392,Credit Repair Cloud,https://www.creditrepaircloud.com/
+1393,Greenhouse Software,https://www.greenhouse.io/
+1394,Devea Software,http://devea.fi/
+1395,DigitalBooker,https://digitalbooker.com/en/
+1396,Deskmeister,http://deskmeister.com/en
+1397,FunnelSource,http://www.funnelsource.com/index.html#&panel1-1
+1398,Kicom,http://www.kicom.co.kr/
+1399,Beezy,http://www.beezy.net/
+1400,Abukai,http://abukai.com/
+1401,Abila,http://www.abila.com/
+1402,DaisyBill,http://www.daisybill.com/
+1403,Curve Dental,http://www.curvedental.com/
+1404,Fitango,https://www.fitango.com/index.php
+1405,Duetto,http://www.duettoresearch.com/
+1406,Enact Systems,http://enact-systems.com/
+1407,GoWorkaBit,https://goworkabit.com/intro
+1408,Draugiem DeskTime.com,http://draugiemgroup.com/en#facts
+1410,smartdebit,http://www.smartdebit.co.uk/
+1411,Smith Cactus Commerce,http://www.smith.co/
+1412,Upwork Elance,https://www.upwork.com/about/
+1413,Admerex Solutions,http://www.admerexsolutions.com/home
+1414,Rising Software,http://www.risingsoftware.com/home.php
+1415,Follett Software Company,http://www.follettlearning.com/webapp/wcs/stores/servlet/en/fssmarketingstore
+1416,Godlan,http://www.godlan.com/
+1417,hinduja global solutions,http://www.hindujagroup.com/
+1419,neudesic web4,http://www.web4.com/
+1420,Symphony Technology Findly,http://www.findly.com/
+1421,HR DirectHello Scheduling,http://www.hrdirect.com/
+1422,Flexpay,http://www.flex-pay.com/
+1423,Hydra Management etask-it,http://www.hydra-management.com/en/
+1424,ARCHIBUS,http://archibus.com/
+1425,Connectwise,http://www.connectwise.com/
+1426,sirsidynix,http://www.sirsidynix.com/
+1427,Steelwedge Software,http://www.steelwedge.com/
+1428,Ganttic,http://www.ganttic.com/
+1429,Globoforce,http://www.globoforce.com/
+1430,Ayanova (Ground Zero Tech-Works Inc.),http://www.ayanova.com/index.htm
+1431,eCivis,http://www.ecivis.com/
+1432,Bellin,http://www.bellin.com/
+1433,Avidxchange,http://www.avidxchange.com/page/history
+1434,"Patriot Software, Inc.",https://www.patriotsoftware.com/?utm_source=GPPC45&utm_medium=cpc&utm_term=patriotsoftware&utm_content=PatriotSoftwareexact&utm_campaign=BRAND&gclid=CLin_9-99sUCFdcWHwodtzEA1A
+1435,Axoft,http://www.axoft.com/
+1436,Imagine Software ,http://www.derivatives.com/default.htm
+1437,Nakisa,http://www.nakisa.com/
+1438,Adix,http://www.adix.be/fr/index.php
+1439,Dynaway,http://www.dynaway.com/
+1440,Hiive AffinityLive,https://www.affinitylive.com/
+1441,Habitsoft Kashoo,https://www.kashoo.com/
+1442,"Stock, Garber",http://www.sgasoftware.com/
+1443,Enviance,http://www.enviance.com/index.ASPx
+1444,Production Modelling Limited,http://www.orchestrate-plan.com/
+1445,ASCON,http://www.ascon.nl/software
+1446,IBS,http://www.ibs.net/
+1447,Exalog,http://www.exalog.com/
+1449,Vertafore,http://www.vertafore.com/
+1450,New World Systems,http://www.newworldsystems.com/
+1451,HAS Software,http://has-software.com/
+1452,HealthTrio,https://www.healthtrio.com/
+1453,MedQ,http://www.medq.com/
+1454,First Insight,http://www.firstinsight.com/
+1455,Agilysys,http://www.agilysys.com/
+1456,Actio Corporation,http://www.actio.net/
+1457,Intapp,http://www.intapp.com/
+1458,idi billing,http://www.idibilling.com/
+1459,InStore Finance,https://www.instorefinance.com/
+1460,Newtron (DIGNewtron),http://www.newtron.ag/en/
+1461,Pivotal Labs,http://pivotallabs.com/
+1464,Gruppo Formula,http://www.formula.it/it/azienda
+1466,Orbis,http://www.orbis-software.com/
+1467,Mobile Rider,http://mobilerider.com/
+1468,eBooks in Motion,http://ebooksinmotion.com/
+1469,Edsby,http://edsby.com/
+1472,Frontier,http://www.frontiersoftware.com/
+1473,Olerp,http://www.olerp.com
+1476,Data East xtools,http://www.xtoolspro.com/
+1477,Brainzsquare,http://www.brainz.co.kr
+1478,Avago,http://www.avagotech.com/pages/home/
+1479,Bauland42,http://www.bauland42.de/
+1480,Tokyo Electronics Applied Materials,http://www.appliedmaterials.com/
+1483,QTS Carpathia,http://carpathia.com/
+1484,Cmed,http://www.cmedresearch.com/
+1485,Acusis SW,http://www.acusis.com
+1486,Founder Order,http://www.founderinternational.com/Eng/index.htm
+1487,Zirmed,http://public.zirmed.com/about-zirmed/?_ga=1.15221110.1727396434.1430847747
+1488,GoMoto,http://shopgomoto.com/
+1489,Day1 Solutions,http://day1solutions.com/
+1490,Looyu,http://www.looyu.com
+1491,ATOS,http://atos.net/en-us/home.html
+1492,infoblox,https://www.infoblox.com/
+1493,Lectra,http://www.lectra.com/en/index.html
+1494,Zettaset,http://www.zettaset.com
+1495,Primeton,http://www.primetonsoftware.com/
+1496,OlymTech,http://www.olymtech.com
+1497,SCSK,http://www.scsk.jp/index_en.html
+1498,Eshbel,http://www.eshbel.com/default.htm
+1499,NetApp,http://www.netapp.com/us/
+1500,Auto-trol Technology,http://www.auto-trol.com/
+1501,Delcam,http://www.delcam.com/
+1502,Symphony Technologies MSC Software,http://www.mscsoftware.com/
+1503,Nomura Research Institute,https://www.nri.com/global/
+1505,Eight Wire,http://www.eight-wire.com/
+1506,Contour Innovations,http://www.contourinnovations.com/
+1507,Cintric,https://cintric.com/
+1508,InstaGIS,https://www.instagis.com/
+1509,Ganttology,https://www.ganttology.com/
+1511,Digital Ware,http://www.digitalware.com/
+1512,GFI Informatique,http://www.gfi.fr/en/
+1513,Huawei,http://www.huawei.com/en/
+1515,Anaeko,http://www.anaeko.com/
+1517,Powerise,http://www.powerise.cn/english/index.htm
+1518,Bizagi,http://www.bizagi.com/index.php
+1519,Resolve,http://www.resolvesoftware.com.au/
+1520,Interactive Software (Achiever),http://www.achiever.co.uk/index.php
+1521,Ipanema tech,http://www.ipanematech.com/
+1522,PROS Pricing Solutions,http://www.pros.com/
+1523,Orchestra Networks,http://www.orchestranetworks.com/
+1525,Pansky,http://www.pansky.com.cn/english/index.htm
+1526,M2Soft,http://www.m2soft.co.kr/english/com_01_intro_04_history.ASP
+1527,Blue Cloud,http://bluecloud.com/
+1528,Druva,http://www.druva.com/
+1529,whoa.com,http://www.whoa.com/
+1530,Acunetix,https://www.acunetix.com/
+1531,validian,http://www.validian.com/
+1533,Sedona,http://www.sedona.com/
+1534,GSE Systems,http://www.gses.com/
+1535,P2 Energy Solutions,http://www.p2energysolutions.com/
+1536,Boothroyd Dewhurst,http://www.dfma.com/index.html
+1537,Mentor Graphics,http://www.mentor.com/
+1538,Comax,https://www.comax.co.il/default_e.ASP
+1539,NASDAQ OMX,http://www.nasdaq.com/
+1540,Cleo,http://www.cleo.com/
+1541,State Street Princeton Financial Systems,http://www.pfs.com/
+1542,iActive,http://www.iactive.com.cn
+1543,PenSoft,http://www.pensoft.com/
+1544,PrismTech,http://www.prismtech.com/
+1545,PCI Enterprises,http://www.pcigeomatics.com/
+1547,Kaba Benzing,http://www.kaba-benzing-USA.com/Kaba/567194/kaba-group.html
+1548,Fiorano Software,http://www.fiorano.com/
+1549,CNC Software Inc.,http://www.mastercam.com/
+1550,800app,http://www.800app.com
+1551,South River Technologies,http://www.webdrive.com/
+1552,Whitestein Technologies,http://www.whitestein.com/
+1553,Candescent Partners Quadrant/Softbase/BCD/Netlert Systems,http://www.candescentpartners.com/investments/
+1554,Geniustec (Harbin Genius Technology),http://geniustec.weebly.com/about-us.html
+1555,Unet System,http://www.unetsystem.co.kr/eng/index.jsp
+1556,Extol,http://www.extol.com/
+1557,HighJump Software,http://www.highjump.com/
+1558,Informat,http://www.informat.net/index.php
+1560,Geanet,http://www.geanetondemand.com/es/home
+1564,Macrologic,http://www.macrologic.cc/index.html
+1565,China Telecom SZ SaaS,http://www.szsaas.cn
+1566,Gruppo Engineering,http://www.eng.it/
+1567,clearstory data,http://www.clearstorydata.com/
+1568,Amristar,https://amristar.com/
+1569,proALPHA,http://www.proalpha.us/us/home.html
+1570,RealTime Tech,https://www.rti.com/
+1571,Uniface,http://www.uniface.com/
+1572,Weebly,http://www.weebly.com/
+1573,DeskAway,http://deskaway.com/
+1574,Eyeformatics,http://emreyes.com/
+1575,Carbonite,http://www.carbonite.com/
+1577,Zionex,http://zionex.com/
+1578,Nuance Communications,http://www.nuance.com/index.htm
+1579,Cellerium,http://www.cellerium.com/home
+1580,Jmango 360,http://www.jmango360.com/
+1581,Quality,http://en.quality.co.jp/corpinfo/index.html
+1582,BonitaSoft,http://www.bonitasoft.com/
+1583,Cloud9,https://c9.io
+1584,SWIFT,http://www.swift.com/banks
+1585,Aimeesoft,http://aimeesoft.com/
+1586,Facebook,https://www.facebook.com/
+1587,Civis Analytics,https://civisanalytics.com/
+1588,Genius Inc.,http://www.genius4u.com/
+1589,Egg Metrics,http://eggmetrics.com/
+1590,Fliptu,http://fliptu.com/
+1591,Foxtail Marketing,http://foxtailmarketing.com/
+1592,Greensuite,http://mygreensuite.com/about-greensuite/
+1593,Evergage,http://www.evergage.com/
+1594,EverTrue,http://www.evertrue.com/
+1595,"Floating Apps, Inc.",http://www.floatingapps.com/
+1596,Gainsight,http://www.gainsight.com/
+1597,Gigya,http://www.gigya.com/
+1598,Choozle,https://choozle.com/
+1599,Geofeedia,https://geofeedia.com/
+1600,HookFeed,https://hookfeed.com/
+1601,HappyFox,https://www.happyfox.com/
+1602,EvaluAgent,http://www.evaluagent.net/
+1603,ExpertFile,http://expertfile.com/
+1604,Frostbox,http://www.frostbox.com/
+1605,Graduway,http://www.graduway.com/
+1606,Interact.io,http://www.interact.io/
+1607,HealthCrowd,https://www.healthcrowd.com/
+1608,Health cloud solutions,http://healthcloudsolutions.org/
+1610,Engagement Systems,http://gonextpage.com/who-we-are/
+1611,Netlife BeeCRM,http://www.beecrm.com/
+1612,Empirical Synergies,http://www.brandmatchscore.com/
+1613,"Earthlink Centerbeam, Inc.",http://www.earthlink.net/
+1614,AgSquared,http://www.agsquared.com/
+1615,Checkfront,https://www.checkfront.com/
+1616,ClearFit,http://www.clearfit.com/
+1617,abeo.us,http://abeo.us/
+1618,Aladtec Incorporated,https://www.aladtec.com/
+1619,Cheqbook,http://cheqbook.com/
+1620,Chrome River Technologies,https://www.chromeriver.com/
+1622,cielo sa,https://www.cielo.com.br/
+1623,AlphaBricks,http://www.alphabricks.com/
+1624,Specsources,http://www.specsources.com/
+1625,Infosys,http://www.infosys.com/pages/index.ASPx
+1626,Likom Yazilim,http://www.likom.com.tr/
+1627,Checkd AS,http://www.checkd.it/
+1628,9SLIDES,http://9slides.com/
+1629,AgileLaw,http://www.agilelaw.com/
+1630,Argo Data Resource Corp.,http://argodata.com/
+1631,Beem,http://wearebeem.com/
+1632,Toshiba,http://www.toshiba.co.jp/worldwide/index.html
+1633,Amdocs,http://www.amdocs.com/Pages/HomePage.ASPx
+1634,Wincor Nixdorf,http://www.wincor-nixdorf.com/internet/site_EN/EN/Home/homepage_node.html
+1635,Drishti-Soft Solutions Pvt. Ltd,http://www.drishti-soft.com/
+1636,EVER TEAM,http://www.ever-team.com/
+1637,Yonyou,http://www.yonyou.com.hk/new/index.php
+1638,Lease Eagle,http://www.leaseeagle.com
+1639,Indri,http://indri.co/
+1640,FileString,http://www.filestring.com/
+1641,Formisimo,http://www.formisimo.com/
+1642,genie9,http://www.genie9.com/
+1643,Exacaster,http://www.exacaster.com/
+1644,Fokus,https://getfokus.com/en/
+1645,Fraud.net,http://fraud.net/
+1646,G|Predictive Gradient GmbH,http://www.gpredictive.de/
+1647,F9Analytics,https://www.f9analytics.com/lease-finance-intelligence
+1648,Fikrimuhal Teknoloji,http://fikrimuhal.com/
+1650,cirrity,http://www.cirrity.com/
+1651,Deposco,http://deposco.com/
+1652,FusionOps,http://www.fusionops.com/
+1653,Grand Junction,http://www.grandjunction.com/
+1654,Datamolino,https://www.datamolino.com/
+1657,Fiveworx,http://fiveworx.com/
+1658,GoCodes Asset Management,http://www.gocodes.com/#sthash.1EFpWJhe.dpbs
+1659,Hirenetics,http://www.hirenetics.com/
+1661,GapJumpers,https://www.gapjumpers.me/
+1662,GeoLens,https://www.geolens.biz/index.html
+1663,Forecast.it,http://forecast.it/
+1664,Equistor,http://www.equistor.com/
+1665,GaugeLabs,http://www.gaugelabs.com/
+1666,icePOS,http://www.icepos.co.uk/
+1667,Exepron,http://www.exepron.com/
+1668,Front Desk HQ,http://www.frontdeskhq.com/
+1669,Funding Gates,https://www.fundinggates.com/
+1670,GeoPal Solutions,http://www.geopalsolutions.com/
+1671,Fieldwire,http://www.fieldwire.net/
+1672,ikasystems me,http://www.ikasystems.com/
+1673,HealthcareSource,http://www.healthcaresource.com/
+1674,Georama,http://www.georama.com/
+1675,Glassdoor,http://www.glassdoor.com/index.htm
+1676,Innovex,http://www.innovex.co/
+1677,Iconixx SPM,http://iconixx.com/
+1678,Sunfish,http://www.dataon.com/
+1679,Hype (Idea Management or Innovation),http://hypeinnovation.com/
+1680,Bimsa,http://www.bimsa.com.tr/eng/
+1681,Royal Systems,http://www.royalsys.in/index.php
+1682,devart skyvia,https://www.devart.com/
+1683,Aldesoft,http://www.userportal.net
+1684,iMedicare,https://imedicare.com/
+1686,Crowdmark,https://crowdmark.com/
+1687,Coursio,http://coursio.com/
+1689,infermedica,http://infermedica.com/
+1690,eMedicalFusion,http://www.emedicalfusion.com/
+1691,Dashbell,http://www.dashbell.com/
+1692,Homecare Homebase Vertical,https://www.hchb.com/
+1693,FancyFon,http://www.fancyfon.com/
+1695,Kindling,http://www.kindlingapp.com/
+1696,Gavel and Gown Software,http://amicUSAttorney.com/
+1697,Galactica,http://galacticasoftware.com/
+1698,CAST Software,http://www.castsoftware.com
+1699,greencloud,http://gogreencloud.com/
+1700,cybereason,http://www.cybereason.com/
+1701,Identacor,https://identacor.com/
+1702,Corax Cyber Security,https://www.coraxcyber.com/
+1703,Elastica,https://www.elastica.net/
+1704,ProcurePort,http://www.procureport.com
+1706,GreatSoft,http://www.greatsoft.co.za
+1707,B-kin,http://www.b-kin.com/
+1708,Reporta Controllingsysteme AG,http://www.reporta.ag
+1709,Pentaprise GmbH,http://www.pentaprise.de
+1710,LCT Informaticos,http://www.ltcinformaticos.com/
+1711,KE Concepts,http://www.ke.co.za
+1712,Myobis,http://www.myobis.com/
+1713,HASIB Applied Computer Services,http://www.hasib.com.sa/
+1714,Calwin,http://www.calwin.co.uk/index.htm
+1715,KARAT Software,http://www.karatsoftware.cz
+1716,Silver Net Computer Systems Ltd.,http://www.silvernet.co.il/english/default.ASPx
+1717,Vexcor Systems,http://www.vexcor.cz
+1718,WISE iTech,http://wise.co.kr/#
+1719,Big Propeller,http://bigpropeller.com/
+1720,Birdleaf CloudDock,http://birdleaf.io/
+1721,BetterWorks,http://www.betterworks.com/
+1722,Billogram,https://billogram.com/
+1725,ECA Software,http://www.eca-software.de
+1726,Plusoft,http://www.plusoft.com.br/
+1727,Biotronics3D,http://biotronics3d.com/public/
+1729,PowerStores,http://www.powerstores.com/
+1730,Halosys,http://halosys.com/
+1731,Mobiacube,http://www.mobiacube.com/en
+1732,Elastic Path eCommerce,http://www.elasticpath.com/
+1733,Calibre Apps,http://engage.calibreapps.com/
+1734,MOWARES,http://mowares.com/
+1735,Platformic,http://www.platformic.com/
+1737,Codacy,https://codacy.com/
+1738,ekmPowershop,https://www.ekmpowershop.com/
+1739,Cloudinary,http://cloudinary.com/
+1740,Tessly railskits,http://www.tesly.com/
+1741,Fhoster,http://www.fhoster.com/static/index.jsp
+1742,Greenbird Integration Technology,http://www.greenbird.com/
+1743,approyo,http://www.approyo.com/
+1744,JRapid,http://www.jrapid.com/platform/about.html
+1745,OkulBilisim,http://okulbilisim.com/
+1746,GitPrime,http://gitprime.com/
+1748,Jargon,https://usejargon.com/#/home
+1749,PullReview,https://www.pullreview.com/
+1750,Playlyfe,https://playlyfe.com/
+1751,Codename One,https://www.codenameone.com/
+1752,Cloud 66,http://www.cloud66.com/
+1753,BigPanda,https://bigpanda.io/
+1754,ostrato,http://www.ostrato.com/
+1755,BethClip,https://bethclip.com/
+1756,Keymetrics,https://keymetrics.io/
+1757,chartboost,https://www.chartboost.com/
+1758,prestashop,https://www.prestashop.com/
+1760,Stunf Papyrs,http://papyrs.com/
+1761,Dataloop.IO,https://www.dataloop.io/
+1762,OneSaas,http://www.onesaas.com/
+1763,rivermeadow,http://www.rivermeadow.com/
+1764,Moltin,https://moltin.com/
+1765,Exoprise,http://www.exoprise.com
+1766,Elastera,http://www.elastera.com/
+1767,Morphlabs,http://www.morphlabs.com/
+1768,Simplis Outbox Systems,https://www.simplus.com/
+1769,KweekWeek,http://www.kweekweek.com/
+1770,Pushmote,https://pushmote.com/
+1771,iomart,http://www.iomart.com/
+1772,maestrano,https://maestrano.com/
+1773,Flowgear,http://www.flowgear.net/
+1774,Orkeo,http://www.orkeo.com/
+1775,Twilio,https://www.twilio.com/
+1776,cloud nation,http://www.cloudnation.co/
+1777,Octopus Deploy,https://octopusdeploy.com/
+1778,Kardeo Hiwyre,http://www.kardeo.com/
+1781,Payfirma,https://www.payfirma.com/
+1782,RevenueWire,https://www.revenuewire.com/
+1783,AppDirect,http://www.appdirect.com/
+1784,rapidscale,https://rapidscale.net/
+1788,Empirix,http://www.empirix.com/
+1790,Captricity,http://captricity.com/
+1791,Categorical,http://categorical.com/
+1792,Promoter.io,http://www.promoter.io/
+1793,prismic.io,https://prismic.io/
+1794,peer60,https://www.peer60.com/
+1795,Reevoo,https://www.reevoo.com/
+1796,PressPad,http://www.presspadapp.com/
+1797,Connesta,http://www.connesta.com/
+1798,KeyStone OnDemand,http://www.keystoneondemand.com/
+1800,Loudcloud,http://loudcloudsystems.com/
+1801,Solix,http://www.solix.com/
+1802,Vodacom Business,http://www.vodacom.com/
+1803,Meetingsift LiveSift,http://meetingsift.com/
+1804,Baloonr,http://baloonr.com/
+1805,RecursiveLabs Click With Me Now,http://clickwithmenow.com/
+1806,BackerKit,https://www.backerkit.com/
+1807,Openbricks.io,http://openbricks.io/
+1808,Mobilimeet,http://mobilimeet.com/
+1809,ContactOffice,https://www.contactoffice.com/
+1810,RunRev,http://runrev.com/
+1811,qts,http://www.qtsdatacenters.com/
+1812,Cerium,http://www.ceriumnetworks.com/home/solutions/cloud-and-saas-solutions/
+1813,Shoretel,https://www.shoretel.com/
+1815,NOW Solutions LLC,http://www.nowsolutions.com/index.html
+1816,ViaPeople,http://www.viapeople.com/
+1818,CLIQr,http://www.cliqr.com/
+1819,PDS,http://www.pdssoftware.com/
+1820,HardDollar,http://www.harddollar.com/
+1822,Excel Force MSC Berhard,http://www.excelforce.com.my/index.html
+1824,Contify,http://www.contify.com/
+1825,Kuldat,http://kuldat.com/en/
+1826,Bedrock Data,http://www.bedrockdata.com/
+1827,OneFold,http://www.onefold.io/
+1828,Knack HQ,https://www.knackhq.com/
+1829,ClicData,http://www.clicdata.com/
+1830,vCube Solutions,http://www.vcsol.com/
+1831,Connexient,http://connexient.com/
+1832,nutanix,http://www.nutanix.com/
+1833,scality,http://www.scality.com/
+1834,Retail Solutions (RSI),http://www.retailsolutions.com/
+1835,socrata,http://www.socrata.com/
+1836,Kable,http://www.kable.co.uk/
+1837,vion,http://www.vion.com/
+1838,Pivotal gopivotal,http://pivotal.io/
+1839,datalink,http://www.datalink.com/
+1840,InfoTel,http://www.infotel.com/
+1841,Consensus International,http://www.consensusintl.com/
+1842,HMA Group,http://hmastarware.com/index.html
+1843,Heinsohn,http://www.heinsohn.com.co/ingles/
+1844,Mental Desk Skubrain,http://www.skubrain.com/
+1845,Kontainers,https://kontainers.co.uk/
+1846,Telogis Inc.,http://www.telogis.com/
+1847,MercuryGate International ,http://www.mercurygate.com/
+1848,Mix Telematics,http://www.mixtelematics.com/
+1849,Marketo launchpoint,http://www.marketo.com/
+1852,Connectivity,http://www.connectivity.com/
+1853,Pipedrive,https://www.pipedrive.com/en/home/quotes
+1854,Nandimobile,http://www.nandimobile.com/
+1855,Nearway,https://www.nearway.com/
+1856,"CollabIP, Inc.",http://collabip.com/
+1857,ContractRoom,http://contractroom.com/
+1858,Whitetail Keepify,http://keepify.com/
+1859,ClientSuccess,http://www.clientsuccess.com/
+1860,CloudAmp,http://www.cloudamp.com/
+1861,Contactually,http://www.contactually.com/
+1862,kailo,http://www.kailo.com/
+1863,KnowledgeTree,http://www.knowledgetree.com/
+1864,LeadPro247,http://www.leadpro247.com/
+1865,Loudbounce,http://www.loudbounce.com/
+1866,Relevvant,http://www.relevvant.com/
+1867,Swiftpage,http://www.swiftpageconnect.com/
+1869,Time Machine Ventures Grata,https://www.grata.co/
+1870,MetricStory,https://www.metricstory.com/
+1871,Naytev,https://www.naytev.com/
+1873,RingLead,https://www.ringlead.com/
+1874,Sprinklr,https://www.sprinklr.com/
+1875,PadCloud Technologies,http://www.padcloud.com/
+1876,rankingCoach GmbH,https://www.rankingcoach.com/en-us
+1877,Mopinion,http://mopinion.com/
+1878,Nabra Deskero,http://www.deskero.com/
+1879,Realeyes,http://www.realeyes.me/
+1880,Ongage,https://www.ongage.com/
+1881,CashStar,http://www.cashstar.com/
+1883,Offerpop,http://www.offerpop.com/
+1884,ReachForce,http://www.reachforce.com/
+1885,StrongView,http://www.strongview.com/
+1886,NeoReach,https://neoreach.com/
+1887,Pipeliner Sales,https://www.pipelinersales.com/
+1888,ProsperWorks,https://www.prosperworks.com/
+1889,Spredfast,https://www.spredfast.com/
+1890,Kompyte,http://www.kompyte.com/
+1891,Vistaprint,http://www.vistaprint.com/?mk=vistaprint&ad=e&crtv=68495990539&psite=mkwid|KCdbXkuc&device=c&GP=6%2f6%2f2015+8%3a09%3a34+AM&GPS=3528874594&GNF=0
+1892,LoyaltyMatch Inc.,http://loyaltymatch.com/
+1893,netfortris,http://netfortris.com/
+1894,netcomp communications group,http://www.netcompcg.com/
+1895,Jellyvision,http://www.jellyvision.com/
+1896,valorglobal,http://www.valorglobal.com/
+1897,ProfileGorilla,http://www.profilegorilla.com/
+1898,Wynyard Group GRC,https://www.wynyardgroup.com/us/
+1900,Veeder Root,http://www.insite360fuel.veeder.com/
+1901,Volt ConsolVMS,http://www.volt.com/Volt+Workforce+Solutions.ASPx
+1902,Mijura,https://mijura.com/
+1903,ProActive Software,http://www.proactivesoftware.com/
+1904,Radario,https://radario.co/
+1905,Cocon Coworkify,https://coworkify.com/
+1906,ContaAzul,https://contaazul.com/
+1907,Meus Pedidos,https://meuspedidos.com.br/
+1908,Paybook,https://www.paybook.com/
+1909,Careerleaf Inc,http://careerleaf.com/
+1910,Plasticity Labs,http://www.plasticitylabs.com/
+1911,Procurify,http://www.procurify.com/
+1912,OpenGov,http://opengov.com/
+1913,PaidSupport,http://paidsupport.com/
+1914,ParLevel Systems,http://parlevelsystems.com/
+1915,Callida Energy,http://www.callidaenergy.com/
+1916,Contraqer,http://www.contraqer.com/
+1917,Nirvaha,http://www.nirvaha.com/
+1919,Patheer,http://www.patheer.com/
+1920,PayStand,http://www.paystand.com/
+1921,Calendly,https://calendly.com/
+1922,ChargeOver,https://chargeover.com/
+1923,Partender,https://partender.com/
+1924,PerformYard,https://performyard.com/
+1925,CanopyTax,https://www.canopytax.com/
+1926,CloudBooks,https://www.cloudbooksapp.com/
+1927,Connectifier,https://www.connectifier.com/
+1928,Convo,https://www.convo.com/
+1929,Maxwell Health,https://www.maxwellhealth.com/
+1930,OneSoft Connect,https://www.onesft.com/en
+1931,MeeWee,http://what.meewee.com/
+1934,MakePlans,http://www.makeplans.net/
+1935,Recruto,http://www.recruto.se/en/
+1937,Clothes Network,http://www.clothesnetwork.com/
+1938,Phorest,http://www.phorest.com/us/
+1939,PocketFM Limited,http://www.pocketfm.com/
+1940,Nuwe,https://www.nuwe.co/#/step1
+1941,360Candidate,http://www.360candidate.com/
+1942,OrderCup,http://www.ordercup.com/
+1943,Oradian,http://oradian.com/
+1944,Logic Software Easy Projects .NET,http://www.logicsoftware.net/
+1945,Resolver,http://www.resolvergrc.com/
+1946,CloudBudget,http://cloudbudget.com/
+1947,Reachlocal Kickserv,http://reachlocal.com/us/en
+1948,OnShift,http://www.onshift.com/
+1949,Pegasus Solutions,http://www.pegasussolutions.com/
+1950,RevGuard,http://www.revguard.net/
+1951,Chargify,https://www.chargify.com/
+1952,neudesic,https://www.neudesic.com/
+1953,PeopleMatter HCM,https://www.peoplematter.com/
+1954,Rentalutions,https://www.rentalutions.com/
+1955,Revinate,https://www.revinate.com/
+1956,KIWI.KI,http://kiwi.ki/
+1957,onBill,https://www.onbill.de/
+1958,NurseGrid,http://nursegrid.com/
+1959,Technology Partners Imagine,http://www.imagineteam.com/
+1960,cloud9ortho,http://www.cloud9ortho.com/
+1961,KeepMeBooked,https://keepmebooked.com/
+1962,mindsquare,http://mindsquare.de/
+1963,Prospectvision,http://www.prospectvision.com/
+1964,TDS Telephone and Data Systems oneneck (formerly TheVault),http://www.tdstelecom.com/about.ASPx
+1966,Cattlesoft,http://www.cattlesoft.com/
+1967,psoda,http://psoda.com/cms/home
+1968,xanegy,http://xanegy.com/
+1969,Razoom,http://www.razoom.com/
+1970,Palo Alto Software Liveplan,http://www.liveplan.com/
+1971,Vormittag Associates Inc.,http://www.vai.net/
+1972,C-Systems Software Softpower,http://www.csystemssoftware.com/index.php
+1973,Scorpion Healthcare,https://www.scorpionhealthcare.com/
+1974,XIFIN ERP,http://www.xifin.com/
+1975,saasplaza,http://www.saASPlaza.com/
+1976,Apigee,https://apigee.com/about/
+1977,InvoiceCloud,http://invoicecloud.com/solutions.html
+1978,Bosch Software Innovations,http://www.bosch-si.com/home/homepage.php
+1979,ComOps,http://www.comops.com.au/
+1980,ABH,http://www.bilisimanadolu.com/Page/MainPage/
+1981,ASD Cloudike,https://cloudike.com/
+1982,Nuage Labs,https://www.nuagelabs.fr/
+1983,Otixo,http://otixo.com/
+1984,Onecloud software,http://www.onecloudsoftware.com/
+1985,SOFTnas,https://www.softnas.com/wp/
+1986,The Very Good Email Company MessageBunker,https://www.messagebunker.com/
+1987,surDOC surMD,https://www.surdoc.com/
+1989,ParentPaperwork,https://www.parentpaperwork.com/
+1990,Limelight Health,https://www.limelighthealth.com/
+1991,NetLex,https://www.netlexweb.com/
+1992,cloud lending solutions,http://cloudlending.com/
+1993,Monitise Group,http://www.monitise.com/americas/?geo=true
+1994,Purple Forge Corp,http://www.purpleforge.com/
+1995,Resgrid,https://resgrid.com/
+1996,Luminate Health,http://www.luminatehealth.com/
+1997,qpid,http://www.qpidhealth.com/about-us/
+1998,Papertrail.io,http://www.papertrail.io/
+1999,LeanKit,http://leankit.com/
+2000,Virmedica Transengen,http://virmedica.com/
+2001,Total Specific Solutions,http://www.totalspecificsolutions.com/
+2002,RIB Software AG,http://www.rib-software.com/en
+2003,Vend,http://www.vendhq.com/
+2004,Zywave Vertical,http://www.zywave.com/about-us/
+2005,TriTech Software Systems,http://www.tritech.com/
+2006,Sisu,http://www.sisusolutions.com/
+2007,SCI Solutions RCM,http://www.scisolutions.com/
+2008,MEDfx,http://www.medfx.com/
+2009,Qualifacts Systems Inc.,http://www.qualifacts.com/
+2010,NextGen Healthcare,https://www.nextgen.com/
+2011,Subex UKLimited Vertical,http://www.subex.com/
+2012,onX,http://www.onx.com/
+2013,Websense,http://www.websense.com
+2014,Digital Arts,http://www.daj.jp/en/
+2015,omicia,http://www.omicia.com/
+2016,Plutora,http://www.plutora.com/
+2017,synapse,http://www.synapsemx.com/
+2018,Pendo.io,http://www.pendo.io/
+2019,QPoint,http://apps.qpointtech.com/
+2020,Productify,http://productify.com/
+2021,ProductBoard,http://www.productboard.com/
+2022,ProductPlan,http://www.productplan.com/
+2023,ProtoShare,http://www.protoshare.com/
+2024,tukatech,http://www.tukatech.com/
+2025,Rockewell Automation Arena,http://www.rockwellautomation.com/
+2026,Appcelerator,http://www.appcelerator.com/
+2027,Hyland Software,http://www.onbase.com/
+2028,Initech,http://initech.co.il/
+2030,Privatis Technology Corporation,http://www.privatis.com/
+2031,Opswat Napera Networks,https://www.opswat.com/
+2032,PerfectCloud,https://www.perfectcloud.io/
+2033,RecoBell,http://www.recobell.com/rb/
+2034,CloudEndure,https://www.cloudendure.com/
+2035,Cobalt Iron,http://www.cobaltiron.com/solutions/
+2036,netizen,http://www.netizen.com/solutions/Software-Development
+2037,Threatmetrix,http://www.threatmetrix.com/
+2038,skyhigh networks,https://www.skyhighnetworks.com/
+2039,lumeta,http://www.lumeta.com/
+2040,Calipso,http://www.calipso.com/
+2041,Infobird,http://www.infobird.com
+2042,node4,http://www.node4.co.uk/
+2043,Coretech,http://www.coretech.com.tr/en/
+2045,sherweb,http://www.sherweb.com/
+2046,Zapproved,https://www.zapproved.com/
+2047,Blue Media,http://www.bluemedia.pl
+2048,unicloud UG,http://www.unicloud.de/
+2049,ABB,http://abb.com
+2050,Purchase Control,http://www.purchasecontrol.co.uk
+2051,datronic IT-Systeme,http://www.datronic.de/index.htm
+2052,KivaCRM,http://www.kivacrm.com/tr/surumler-ve-fiyatlar/surumler.html
+2053,SYSTEMATIQ,http://www.unitedsoftware.cz/
+2054,Inbus,http://www.inbus.co.kr
+2055,Swisslog,http://www.swisslog.com/
+2056,Top Image Systems,http://www.topimagesystems.com/index.php
+2057,Star Storage,http://www.star-storage.ro/
+2058,KOMAKO,http://www.komako.pl
+2059,Aptean,http://www.aptean.com/
+2060,Veeam,http://www.veeam.com/
+2061,KOMIX,http://www.komix.cz/
+2062,Laserfiche,http://www.laserfiche.com/en-us
+2063,OS88,http://www.os88.com
+2064,Luit Infotech Private Limited,http://www.luitinfotech.com/
+2065,TFC Soluciones,http://www.tfcsoluciones.cl/
+2066,Axway,http://www.axway.com/
+2067,Integration Point/PSI,http://www.integrationpoint.com/index.html
+2068,Teradata,http://www.teradata.com
+2069,HRMantra,http://www.hrmantra.com/
+2070,Huron Consulting Click Commerce Inc.,http://www.huronconsultinggroup.com/
+2071,Kongyoung Dbm,http://www.00db.co.kr
+2072,Pramati WaveMaker Software,http://www.pramati.com/
+2073,Awin Technologies,http://www.awin.com.br
+2074,BroadVision,http://www.broadvision.com/en/index.php
+2075,Mazree,https://www.mazree.com/
+2076,Neotel,http://www.neotel.co.za
+2077,Mobile086,http://www.mobile086.cn
+2078,Buoyant Solutions,http://www.buoyantsolutions.net
+2079,Aspect Software,http://www.ASPect.com/Pages/default.ASPx
+2080,A2Zapps.com,http://www.a2zapps.com
+2081,SkillSoft (SSI),http://www.skillsoft.com/
+2083,QAD,http://www.qad.com
+2084,Merge Healthcare,http://www.merge.com/
+2085,Murex,http://www.murex.com/home.php
+2086,Intershop,http://www.intershop.com/
+2087,Kinnova,http://www.kinnova.cn
+2088,Vision Praha,http://www.vision.cz
+2089,Nanjing Shubao Oksbt,http://www.oksbt.com
+2090,Wealth  ERP,http://www.wealtherp.com/
+2091,Iquest,http://www.iquest.co.kr
+2092,Global Groupware Solutions Ltd,http://www.employwise.com/
+2093,Allegro Development,http://www.allegrodev.com/
+2094,Embarcadero Technologies,http://www.embarcadero.com/
+2095,Mobius Solution Pvt. Ltd,http://www.eazework.com/index.ASPx
+2096,CFEngine,http://cfengine.com/
+2097,MyWave/Emplx,http://emplx.com
+2098,ESET,http://www.eset.com/int/
+2099,NH Soft,http://nhsoft.cz
+2100,Atlassian,https://www.atlassian.com/company
+2101,Panda Security,http://www.panda.es
+2102,Netcellence Technologies,http://www.netcellence.in/
+2103,InterCall,http://www.intercall.com/
+2104,Arcplan,http://www.arcplan.com/en/home/
+2105,F-Secure,http://www.f-secure.com/en/web/home_us/home
+2106,Blue Coat,http://www.bluecoat.com
+2107,Zopen,http://www.zopen.cn 
+2108,CNERGYS,http://cnergyis.com/
+2110,Syncsort,http://www.syncsort.com/en/Home
+2111,Intelliob,http://www.payrollclick.com/payrollclicksite/
+2112,Practo Technologies,http://www.practo.com
+2113,NeoSystems,http://www.neosystems.com/
+2114,IAS,http://www.iascon.de/
+2115,Objective Logistics,http://objectivelogistics.com/
+2116,Toyo Engineering,http://www.to-be.co.jp/
+2117,eBay,http://ebay.com
+2118,Rogue Wave Software,http://www.roguewave.com/
+2119,Automic-UC4,http://www.automic.com/
+2120,MindFusion,http://www.mindfusion.eu/index.html
+2121,GrapeCity,http://www.grapecity.com/us/
+2122,Ideablade,http://www.ideablade.com/index.ASPx
+2123,Instantiations Inc.,http://www.instantiations.com/index.html
+2124,Sencha,http://www.sencha.com/
+2125,Qualiware,http://www.qualiware.com/
+2126,MobileFX,http://www.mobilefx.com/coconut2d/default.ASP
+2127,Mobizy,http://www.mobizy.com/
+2128,MobiForms,http://www.mobiforms.com/
+2129,Mood International,http://www.moodinternational.com/
+2130,Myriad Group,http://www.myriadgroup.com/
+2131,InfoNix WebLab,http://infonix.co.in/
+2132,pyspring,http://www.pyspring.com/
+2133,flexiant,https://www.flexiant.com/
+2134,Prostar,http://prostarsoftware.com/
+2135,proxios,http://proxios.com/
+2136,cigniti,http://www.cigniti.com/
+2137,Cubic Compass,http://www.cubiccompass.com/
+2138,Code Climate,https://codeclimate.com/
+2139,GitHub,https://github.com/
+2141,Iceberg,http://www.icebergsoft.co.uk/
+2142,Alibaba Group,http://www.alibaba.com/
+2143,tsuru,https://tsuru.io/
+2144,GTEN Technologies Pvt. Ltd.,http://gtentechnologies.com/
+2145,vexxhost,https://vexxhost.com/
+2146,Brickwork,http://www.brickworksoftware.com/
+2148,entech,http://www.entechus.com/
+2149,e-Zassi,http://www.e-zassi.com/connect/index.html
+2150,teklinks,http://www.teklinks.com/
+2151,Neptune.io,https://www.neptune.io/index.html
+2152,ClearKarma,http://www.clearkarma.com/
+2153,Featherlight,http://www.featherlightsoftware.net/
+2154,Hit Systems,http://www.hitsystems.es/
+2155,Polycom,http://www.polycom.com/company/about-us.html
+2156,Mobility,http://www.qmic.com/
+2157,Harmon.ie,http://harmon.ie/
+2158,Actual Reports,http://www.actualreports.com/home#promo
+2159,Criptext,http://criptext.com/
+2160,funambol,http://www.funambol.com/
+2161,Ramen,https://ramen.is/
+2162,SADA,https://www.sadasystems.com/
+2163,Cleartext,http://cleartext.com/
+2164,Squarespace,http://squarespace.com/
+2166,Sitecore,http://www.sitecore.net/
+2167,Enterworks,http://www.enterworks.com/
+2168,Standard Data,http://www.standarddata.com/index.php
+2169,Optimal Systems,http://www.optimal-systems.de/en.html
+2170,CR2 TECHNOLOGIES LTD.,http://www.cr2.in/
+2171,Cognician,https://www.cognician.com/
+2172,Flimp Media,http://www.flimp.net/
+2175,Judicata,https://www.judicata.com/
+2176,C3 getanet,http://www.c3.co/
+2177,Contentful,https://www.contentful.com/
+2178,Matchhamster,http://www.matchhamster.com/
+2180,Tech I/O Pressidium,https://pressidium.com/
+2181,NetRatings,http://www.nielsen.com/us/en.html
+2183,Siemens Enterprise Communications,http://siemens.com
+2184,Enterprise Hive,http://www.enterprisehive.com/
+2186,Relx Reed Elsevier (LexisNexis Interface Software Inc.),http://www.reedelsevier.com/Pages/Home.ASPx
+2187,Retain.cc,https://retain.cc/
+2188,ERMClouds,http://ermclouds.com/
+2189,Commeasure,http://www.commeasure.com/contents
+2190,AlwaySupport,http://alwaysupport.com/
+2192,Globetom,http://www.globetom.co.za/
+2193,Voloper,https://www.voloper.com/default.ASPx
+2194,Brandmuscle,http://brandmuscle.com/
+2195,CityGro,http://citygro.com/
+2196,Generator Lab,http://generatorlab.com/
+2197,Naehas,http://naehas.com/
+2198,CPC Strategy,http://www.cpcstrategy.com/
+2199,Dynamacs,http://www.dynamacs.com/
+2200,Friendbuy,http://www.friendbuy.com/
+2201,Net Aspects,http://www.netASPects.com/
+2202,Eventbrite,https://www.eventbrite.com/
+2203,GruupMeet,https://www.gruupmeet.com/
+2204,Xing Amiando,http://www.amiando.com/
+2205,QDEGA Loyalty Solutions GmbH,http://www.qdega.com/web/
+2206,Cubica Replo,http://www.cubica.eu/
+2207,MarketGoo,https://www.marketgoo.com/
+2208,evvnt,https://evvnt.com/
+2209,Narvar,http://narvar.com/
+2210,Intersections Zumetrics,http://www.intersections.com/Index.html
+2212,Cloudoscope,http://cloudoscope.com/
+2213,FollowAnalytics,http://followanalytics.com/
+2214,Cloudphysics,http://www.cloudphysics.com/
+2215,Amplitude,https://amplitude.com/
+2216,Collibra,https://www.collibra.com/
+2217,Memoways,http://memoways.com/
+2219,Kubotek,http://kubotek3d.com/home.ASPx
+2221,myVR Software,http://www.myvr-software.com/
+2222,IDOX Group PLC,http://www.idoxgroup.com/
+2223,Inspur,http://en.inspur.com/inspur/494735/index.html
+2224,Manpower,http://www.manpowergroup.com/wps/wcm/connect/manpowergroup-en/home/
+2225,Surgeforth,http://www.surgeforth.com/
+2226,Investment Technology Group,http://www.itg.com/
+2227,Synygy,http://www.synygy.com/
+2228,Greentree,http://www.greentree.com/australian-software-consultants
+2229,Team Computing IMAS,http://www.imas.com.au/
+2230,FlexSystem,http://www.flexsystem.com/default_e.htm
+2231,Pansoft,http://www.pansoft.com/
+2234,Tavant Technologies,http://www.tavant.com/
+2235,Estream SQL Software,http://www.sql.com.my/
+2236,Mobile Engine,http://mobilengine.com/
+2237,Top Solutions/ActionBase,http://en.topsolutions.co.il/
+2238,Hashavshevet,http://www.hashavshevet.co.il/
+2239,Senior Com,http://www.softwaresenior.com/
+2240,home.pl,https://home.pl/
+2241,Workforce Group Workforce Superdata,http://www.superdata.co.za/
+2242,Netsis,http://www.netsis.com.tr/en/
+2244,Ofisis,http://www.ofisis.com.pe/
+2245,Saint,http://saintnet.com/
+2246,Intersoft,http://www.intersoftsystems.com/
+2247,Moai Technologies Inc.,http://www.moai.com/default.ASP
+2248,Nobscot,http://www.nobscot.com/
+2249,Orange,http://www.orangehrm.com/
+2250,SmartERP,http://www.smarterp.com/
+2251,Siveco,http://www.siveco.com/en/
+2252,Prodacapo,http://www.prodacapo.com/
+2253,Mudano,http://mudano.com/
+2254,Lognet Systems,http://www.lognet-systems.com/
+2255,Lauer-Fischer,http://www2.lauer-fischer.de/home/
+2256,BAS,http://www.basgov.com/
+2257,Karasek Viapeak ActioHero,http://www.webactionhero.com
+2258,Stripe,http://www.stripesolutions.com/
+2259,Reckon,https://www.reckon.com/
+2260,Epic Systems,http://www.epic.com/
+2261,Paypal,http://paypal.com
+2262,8common,http://www.8common.com/
+2263,Bizentro,http://www.bizentro.com/
+2264,BPSC,http://www.en.bpsc.com.pl/impuls-evo
+2265,beyond pl,https://beyond.pl/en/
+2266,Bit Software,http://www.bitsoftware.eu/
+2267,Peaksource Vision,http://peaksource.vision/
+2268,boldUnderline. llc,http://boldunderline.com/
+2269,MIROKU JYOHO SERVICE,http://www.mjs.co.jp/en/irinfor/
+2270,Gravity4,http://crm.me/#$$nnvo4v&&yqOiJvMmEeSDBArIhAgzZg$$
+2271,Enfocus Solutions,http://enfocussolutions.com/
+2272,"Funclobile, Inc.",http://funclobile.com/
+2273,unitax,http://unitax.net/
+2274,ENTARENA,http://www.entarena.com/
+2276,Passport,http://www.pass-port.com/
+2277,worldlink,http://www.worldlink-us.com/
+2278,Zuman,http://www.zuman.com/
+2279,Zilicus,http://zilicus.com/
+2281,Qualiac,http://www.qualiacgroup.com/
+2282,FleetNow,http://www.fleetnow.net/
+2283,Gus Group,http://www.gus-group.com/de/
+2285,OpenBravo,http://www.openbravo.com/
+2286,Computers In Personnel HR (CIPHR),http://www.ciphr.com/
+2287,Dezolve,http://www.dezolve.com/prod1/
+2288,FieldLens,http://fieldlens.com/
+2289,Exigis,http://www.exigis.com/
+2290,Harvest Gestion,http://www.harvest.fr/
+2292,JASE Health,http://www.jasehealth.com/
+2293,clypd,http://clypd.com/
+2294,Unlimi-Tech Software,http://www.utechsoft.com/
+2295,SL Corp.,http://www.sl.com/
+2296,SimCorp,http://www.sim.com/
+2297,HeJia,http://www.hejia.cn/english/lm/company.htm
+2298,Dylog,http://www.dylog.it/home.ASPx
+2299,FIS,http://www.fisglobal.com/index.htm
+2300,Fineos,http://www.fineos.com/
+2301,Point and Click,http://pointnclick.com/
+2302,N2N,http://www.n2nglobal.com/
+2303,Singlee,http://www.singlee.com.cn/english/main.ASP
+2304,InteQ Corporation,http://www.inteqsolutions.com/html/factSheet.htm
+2305,Nuri Telecom,http://www.nuritelecom.com/solutions/advanced-metering-infrastructure.html
+2306,MicroSurvey Software,http://www.microsurvey.com/
+2307,xchange,http://www.xe.com/
+2308,Explorer Software Inc.,http://www.explorer-software.com/
+2309,Lumley Technology,http://www.lumley.com.au/sites/LumleyInsurance/Home.ASPx
+2312,Financial Software Systems,http://www.finsoftware.com/index.php
+2313,Nexant,http://www.nexant.com/
+2314,Meditech,http://home.meditech.com/en/d/home/
+2316,Craft Nation,http://www.craftnation.com/
+2317,cloudRIA,http://www.cloudria.com/
+2318,Zurple,http://zurple.com/
+2319,ConTrust,http://www.contrust.com/
+2320,Blackbird,http://blackbird.com/
+2321,cloudpoint,http://cloudpoint.com/
+2322,CM Tecnologia,http://www.cmtecnologia.com.br/
+2323,Computer Programs and Systems Inc,http://www.cpsi.com/
+2324,PointClear,http://www.pointclearsolutions.com/
+2325,ventripoint,http://www.ventripoint.com/
+2326,iRise,http://www.irise.com/
+2328,Manhattan Associates,http://www.manh.com
+2329,United Parcel Services,http://www.ups.com
+2330,RR Donnelly,http://www.rrdonnelley.com/
+2331,SIT-QAD,http://www.sitqad.co.il/
+2332,Executive Pro,http://www.executivpro.com/
+2333,Cunesoft GmbH,http://www.cunesoft.com/
+2334,Verizon,http://www22.verizon.com
+2335,HID Global,http://www.hidglobal.com/
+2336,Trustwave Holdings,https://www.trustwave.com/home/
+2337,K7 Computing,http://www.k7computing.com/en/index.php
+2338,Quickheal,http://www.quickheal.com/
+2339,OneLogin,http://www.onelogin.com/
+2340,tradentrix,http://www.tradentrix.com/
+2341,Circl,http://www.circl.lu/
+2342,ZeedProtection,https://zeedsecurity.com/?lang=en
+2344,Waterford Technologies,http://www.waterfordtechnologies.com/
+2345,Softline Active Cloud,http://www.softlinegroup.com/en/
+2346,zaddara,https://www.zadarastorage.com/solutions/need/storage-as-a-service/
+2347,TigerLogic,http://www.tigerlogic.com/tigerlogic/company/
+2348,Rocket Software,http://www.rocketsoftware.com/
+2349,Objectivity Inc.,http://www.objectivity.com/
+2350,Xpriori,http://www.xpriori.com/
+2351,Solarwinds,http://www.solarwinds.com/
+2352,Plus Technologies,http://www.plustechnologies.com/
+2353,ORSYP SA,http://www.orsyp.com/
+2354,Stringdata,http://www.stringdata.cz/en/
+2355,Uptime Software,http://www.uptimesoftware.com/
+2356,Multima Corp.,http://www.multima-corporation.com/
+2357,Stonebranch,http://www.stonebranch.com/
+2358,Teamquest,http://www.teamquest.com/
+2359,Haloweb,https://www.haloweb.co.za/
+2360,cetrom,http://www.cetrom.net/
+2361,FabriQate,http://www.fabriqate.com/
+2362,telehouse,http://www.telehouse.net/
+2363,Remark,http://remarksoftware.com/
+2364,ExpressScripts,https://www.express-scripts.com/corporate/index.shtml
+2365,Telenor,http://www.telenor.com/
+2366,Liberty Interactive,http://www.libertyinteractive.com/
+2367,First Data,https://www.firstdata.com/en_us/home.html
+2368,Unify,https://www.unify.com/us/
+2369,Expedia,http://www.expedia.com/
+2370,Entisys Premier IT,http://www.entisys.com/
+2371,Eventify,http://www.eventify.com.au/
+2372,People10 Technologies Inc.,http://www.people10.com/
+2373,doruknet,http://www.doruk.net.tr/hakkimizda/general_overview.html
+2374,F12,http://f12.net/
+2375,zoominfo,http://www.zoominfo.com/
+2376,Piano Media,https://www.pianomedia.com/
+2378,Expert System,http://www.expertsystem.net/
+2379,Amodit,http://amodit.com/
+2380,ContinuityApp,https://continuityapp.com/contact
+2381,CoinSimple,https://coinsimple.com/
+2382,CargoSense,http://cargosense.com/
+2383,Database Labs,https://www.databaselabs.io/
+2384,Graph Story,https://www.graphstory.com/
+2385,EMnify,https://www.emnify.com/
+2386,Alignable,http://site.alignable.com/
+2387,Newency,http://www.newency.com/
+2390,Almabase,http://almabase.com/
+2392,linkstreet,http://linkstreet.in/
+2393,Epoxy,http://epoxy.tv/
+2394,Communify,http://communify.com/en
+2395,Conductor,http://www.conductor.com/
+2396,elevio,https://elev.io/
+2397,Refiral,http://www.refiral.com/
+2398,Bidstalk,http://bidstalk.com/
+2400,Amity,http://getamity.com/
+2401,AdEspresso,http://adespresso.com/our_mission/
+2402,Alluring Logic,http://alluringlogic.com/
+2403,CampaignGo,http://campaigngo.com/
+2404,Relatabase,http://relatabase.com/
+2405,Altocloud,http://www.altocloud.com/
+2406,Collective[i],http://www.collectivei.com/
+2407,"Ambition, Inc",https://ambition.com/
+2408,Cosmic Cart,https://cosmiccart.com/
+2409,bizzabo,https://www.bizzabo.com/
+2410,BeatSwitch,https://www.beatswitch.com/
+2411,Plecto,https://www.plecto.com/en/
+2413,Applicata,http://www.applicata.de/
+2414,Foodi Online Ltd,https://www.foodi-online.com/
+2415,Adchemix,http://www.adchemix.com
+2416,Bright.md,http://bright.md/#bright-approach-1
+2417,Denote,http://denote.io/
+2418,aginity,http://www.aginity.com/
+2419,"Entytle, Inc.",http://www.entytle.com/
+2420,"Faze1, Inc.",https://www.faze-1.com/
+2421,DBVu,https://dbvu.net/
+2422,CADWOLF,http://www.cadwolf.com/
+2423,Abacus Labs,https://www.abacus.com/
+2424,Agrivi,http://www.agrivi.com/
+2425,Ditdot Actionmint,https://www.actionmint.com/
+2426,Buddypilots Aviation,https://www.buddypilots.com/
+2428,LibraTax,http://libratax.com/
+2429,Aha!,https://www.aha.io/
+2430,Emplified Corp.,https://www.emplified.com/
+2432,billage,http://www.billage.es/
+2433,Entelligo BV,http://entelligo.com/
+2434,Campus Bubble,http://campusbubble.com/
+2435,Beyond Pricing,https://beyondpricing.com/
+2436,Addepar,https://www.addepar.com/
+2437,CareSkore,http://www.careskore.com/
