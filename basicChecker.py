@@ -37,9 +37,9 @@ def replaceAll(characterToBeReplaced, newCharacter, text):
             text[i] = newCharacter
     return ''.join(text)
 
-savePath = os.getcwd() + '/Webpages ' + strftime("%Y-%m-%d %H_%M_%S", gmtime())
+savePath = '~/PyCharmProjects/Webscraper/Scraper/Webpages_' + strftime("%Y-%m-%d %H_%M_%S", gmtime())
 
-#probably not necessary if we're storing these websites in binary
+#probably not necessary to create a directory if we're storing these websites in binary
 def checkDirectoryExistence(): #checks if directory for webpages already exists to prevent unintentional overwriting
     return os.path.exists(os.path.join(savePath))
 
@@ -172,7 +172,7 @@ def goToURL(websites, website):
 
 for website in websites:
     if website.URL == ' ': #when no website is given, skip the loop
-        continue;
+        continue
     elif (website.URL[0:3] == 'See'):  # checks for subordinate case first and ends current loop if true
         print("Duplicate")
         ErrorArray.append(
