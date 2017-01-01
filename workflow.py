@@ -25,7 +25,9 @@ import collections
 
 from lxml import etree # Catching errors with parsing
 from bs4 import UnicodeDammit, BeautifulSoup # for HTML parsing
+from datetime import datetime
 
+startTime = datetime.now()
 
 
 class Co:
@@ -102,7 +104,6 @@ def coUpdateHTML(colist, lim = -1, outpath = None):
                 try:
                     saveWebPage = UnicodeDammit(
                         response).unicode_markup  # data (in bytes) from opening URL is decoded into String format
-                    html = lxml.html.fromstring(response)
                 except UnicodeDecodeError: # some errors have occurred when decoding characters from non-English languages
                     print("Unicode Decode Error")
                     co.errors.append(co.name + ' Decode Error' + ' ' + co.website)
@@ -206,10 +207,21 @@ def npyImport(name = 'binaries.npy'):
     return np.load(curr_dir + os.sep + 'data' + os.sep + name)
 
 
+def createCSVFile(coList, fileName):
+    curr_dir = os.getcwd()
+    savepath = os.path.join(curr_dir + "/data/" + fileName + time.strftime("%Y-%m-%d(%H_%M_%S)", time.gmtime()) + ".csv")
+    with open(savepath, "w") as output:
+        writer = csv.writer(output, lineterminator='\n')
+        writer.writerows(word_index(coList))
+
 
 """Here is the main workflow"""
-r = excelToCo()
-r = coUpdateHTML(r, lim = -1)
+coList = npyImport("31_12_2016.npy") # npy file too big to put on github
+createCSVFile(coList, "Words")
+
+# r = excelToCo()
+# r = coUpdateHTML(r, lim = 10)
+print (datetime.now() - startTime)
 
 
 
