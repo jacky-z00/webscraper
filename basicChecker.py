@@ -1,3 +1,5 @@
+"""check savepath before running"""
+
 from urllib.request import Request, urlopen  # Modules used to access websites with their URLs
 from urllib.error import URLError, HTTPError  # Modules used to deal with errors with accessing websites
 from http.client import IncompleteRead, BadStatusLine  #
