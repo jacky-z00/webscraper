@@ -17,11 +17,17 @@ from urllib.error import URLError, HTTPError #Modules used to deal with errors w
 from http.client import IncompleteRead #Strange error catch
 from ssl import CertificateError #Strange error catch and bypass
 import time
+import lxml.html
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from bs4 import BeautifulSoup
 import re
 import collections
+
+from lxml import etree # Catching errors with parsing
+from bs4 import UnicodeDammit, BeautifulSoup # for HTML parsing
+from datetime import datetime
+
+startTime = datetime.now()
 
 
 class Co:
@@ -61,53 +67,63 @@ def coUpdateHTML(colist, lim = -1, outpath = None):
     colist = colist[0:lim]
     for co in colist: #iterates through every Co object
 
-    	if (co.reference == None): #ensures not a reference
-    		context = ssl._create_unverified_context() #bypasses SSL Certificate Verfication (proabably not a good idea, but it got more sites to work)
-    		req = Request(co.website, headers = {'User-Agent': 'Mozilla/5.0'}) #changing the header to Mozilla/5.0 prevents some webscraper blocking techniques
-    		try:
+        if (co.reference == None): #ensures not a reference
+            context = ssl._create_unverified_context() #bypasses SSL Certificate Verfication (proabably not a good idea, but it got more sites to work)
+            req = Request(co.website, headers = {
+                'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
+                'Accept-Encoding': 'none',
+                'Accept-Language': 'en-US,en;q=0.8',
+                'Connection': 'keep-alive'}) #changing the header to Mozilla/5.0 prevents some webscraper blocking techniques
+            try:
 
-    		    response = urlopen(req, context = context).read() #opens the URL and returns data (in bytes)
+                response = urlopen(req, context = context).read() #opens the URL and returns data (in bytes)
 
 
-    #Various errors have popped up, so I set up exceptions to catch them. Should be a better way to do this.
-    		except ConnectionResetError:
-    			print('Server didn\'t send data')
-    			co.errors.append(co.name + ' Server didn\'t send data'+ ' '+ co.website)
-    		except HTTPError as e:
-    		    print('The server couldn\'t fulfill the request.')
-    		    co.errors.append(co.name + ' HTTPError: '+ str(e.code) + ' '+ co.website)
-    		    print(co.name)
-    		    print('Error code: ', e.code)
-    		except URLError as e:
-    		    print('We failed to reach a server.')
-    		    co.errors.append(co.name + ' URLError ' + repr(e.reason) + ' '+ co.website)
-    		    print(co.name)
-    		    print('Reason: ', repr(e.reason))
-    		except CertificateError:
-    			print("SSL Certificate Error")
-    			co.errors.append(co.name + ' SSL Certificate Error'+ ' ' + co.website)
-    			print(co.name)
-    		except IncompleteRead as e:
-    			print("IncompleteRead Error")
-    			co.errors.append(co.name + ' Incomplete Read Error' + ' ' + co.website)
-    			print(co.name)
+            except ConnectionResetError:
+                print(co.name, '\'s ', 'didn\'t send data')
+                co.errors.append(co.name + ' Server didn\'t send data'+ ' '+ co.website)
+            except HTTPError as e:
+                print(co.name, '\'s ',  'server couldn\'t fulfill the request.')
+                co.errors.append(co.name + ' HTTPError: '+ str(e.code) + ' '+ co.website)
+                print('Error code: ', e.code)
+            except URLError as e:
+                print('We failed to reach a server.')
+                co.errors.append(co.name + ' URLError ' + repr(e.reason) + ' '+ co.website)
+                print(co.name)
+                print('Reason: ', repr(e.reason))
+            except CertificateError:
+                print("SSL Certificate Error with ", co.name)
+                co.errors.append(co.name + ' SSL Certificate Error'+ ' ' + co.website)
+            except IncompleteRead as e:
+                print("IncompleteRead Error with ", co.name)
+                co.errors.append(co.name + ' Incomplete Read Error' + ' ' + co.website)
 
-    		else: #if no web based error occurs
-    			try:
-    				saveWebPage = response.decode() #data (in bytes) from opening URL is decoded into String format
-    			except UnicodeDecodeError: #some errors have occurred when decoding characters from non-English languages
-    				print("Unicode Decode Error")
-    				co.errors.append(co.name +  ' Decode Error' + ' ' + co.website)
-    			else:
+            else:
+                try:
+                    saveWebPage = UnicodeDammit(
+                        response).unicode_markup  # data (in bytes) from opening URL is decoded into String format
+                except UnicodeDecodeError: # some errors have occurred when decoding characters from non-English languages
+                    print("Unicode Decode Error")
+                    co.errors.append(co.name + ' Decode Error' + ' ' + co.website)
+                except etree.ParserError:
+                    print("ParserError with ", co.name)
+                    co.errors.append(co.name + ' Parser Error ' + co.website)
+                except etree.XMLSyntaxError:
+                    print("XMLSyntaxError with ", co.name)
+                    co.errors.append(co.name + ' XML Syntax Error ' + co.website)
+                else:
 
-    				"""Store the website content"""
-    				co.content = [time.strftime("%d/%m/%Y"), saveWebPage]
-    				print (co.name + ' is working fine')
+                    """Store the website content"""
+                    co.content = [time.strftime("%d/%m/%Y"), saveWebPage]
+                    print (co.name + ' is working fine')
     curr_dir = os.getcwd() #gets the current directory
     np.save(curr_dir + os.sep + 'data' + os.sep + (outpath if outpath else time.strftime("%d_%m_%Y")), colist)
                                             #Updates the saved binaries
                                             #if no name is provided it uses the date
     return colist
+
 """takes a list of Co objects and attempts to fill out the website content,
    of the cos that encountered errors before using selenium web driver
    Ignores duplicates/references"""
@@ -191,10 +207,21 @@ def npyImport(name = 'binaries.npy'):
     return np.load(curr_dir + os.sep + 'data' + os.sep + name)
 
 
+def createCSVFile(coList, fileName):
+    curr_dir = os.getcwd()
+    savepath = os.path.join(curr_dir + "/data/" + fileName + time.strftime("%Y-%m-%d(%H_%M_%S)", time.gmtime()) + ".csv")
+    with open(savepath, "w") as output:
+        writer = csv.writer(output, lineterminator='\n')
+        writer.writerows(word_index(coList))
+
 
 """Here is the main workflow"""
-#r = excelToCo()
-#r = coUpdateHTML(r, lim = 5)
+coList = npyImport("31_12_2016.npy") # npy file too big to put on github
+createCSVFile(coList, "Words")
+
+# r = excelToCo()
+# r = coUpdateHTML(r, lim = 10)
+print (datetime.now() - startTime)
 
 
 
