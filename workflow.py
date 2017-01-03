@@ -94,7 +94,7 @@ def findReference(co, coList):
 def coUpdateHTML(colist, lim = -1, outpath = None, timeout = 10):
     #timeout defaults to 10 seconds
     colist = colist[0:lim]
-    @timeout_decorator.timeout(10)
+    @timeout_decorator.timeout(5)
     def getHTML(co):
 
         if (co.reference[0] == None): # ensures not a reference
@@ -151,7 +151,7 @@ def coUpdateHTML(colist, lim = -1, outpath = None, timeout = 10):
     for co in colist: # iterates through every Co object
         try:
             getHTML(co)
-        except TimeoutError:
+        except timeout_decorator.timeout_decorator.TimeoutError:
             print (co.name + ' has a TimeoutError')
             co.errors.append(co.name + ' TimeoutError' + ' ' + co.website)
     curr_dir = os.getcwd() # gets the current directory
