@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Dec 27 2016
+Created on Dec 27 2016 by Nathaniel Mahowald
+
+Contributors: Johnny Wong, Jacky Zhu
 """
-#This file will contain the developing workflow of the whole project
+# This file will contain the developing workflow of the whole project
 # as an updating combination of functionality developed elsewhere
 
 
@@ -35,17 +37,17 @@ class Co:
     def __init__(self, name = None, website = None):
         self.name = name
         self.subsidiary = []
-        self.reference = [None, None] # Is set to the reference comany if one is provided (See)
+        self.reference = [None, None] # first element contains name (string) of reference, second element contains co object of reference
         if website[0:4] != 'http' and website[0:3] != 'See':
             # appends http heading if not already present and
             # checks if the provider is a subordinate of another provider
             website = 'http://' + website
         elif website[0:3] == 'See':
             website = website[4:]
-            website = website.rsplit('(', 1)[0]
+            website = website.rsplit('(', 1)[0] # some website name had parentheses because of multiple subsidiaries e.g. DealerSocket (2)
             website = website.rsplit(' ', 1)[0]
             self.reference[0] = website
-        elif website[0:9] == 'Bought by':
+        elif website[0:9] == 'Bought by': # one website had "Bought by" instead of "See"
             self.reference[0] = website[10:]
         self.website = website
         self.content = [] # Contains a set of sublists of the form
@@ -56,25 +58,31 @@ class Co:
 """imports a correctly formatted spreadhseet as a list of Co objects"""
 def excelToCo(inpath = '2015 CloudShare - December Final.xlsx', outpath = None):
     coList = []
-    curr_dir = os.getcwd() #gets the current directory
-    spreadsheet = openpyxl.load_workbook(curr_dir + os.sep + 'data' + os.sep + inpath) #pulls data directly from excel file
-    data = spreadsheet.get_sheet_by_name('Data') #specifies which sheet to pull data from
+    curr_dir = os.getcwd() # gets the current directory
+    spreadsheet = openpyxl.load_workbook(curr_dir + os.sep + 'data' + os.sep + inpath) # pulls data directly from excel file
+    data = spreadsheet.get_sheet_by_name('Data') # specifies which sheet to pull data from
 
     for i in range(2, data.max_row):
-        if data.cell(row = i, column = 3).value != None:
+        # data.max_row sometimes returns more than actual number of rows, so the for loop
+        # iterates through empty rows, this if statement accounts for that
+        if data.cell(row = i, column = 3).value is not None:
             coList.append(Co(data.cell(row = i, column = 2).value,
                              data.cell(row = i, column = 3).value))
 
+    # goes through each co and assigns co objects as references if needed
     for co in coList:
-        if co.reference[0] != None:
+        if co.reference[0] is not None:
             findReference(co, coList)
 
     np.save(curr_dir + os.sep + 'data' + os.sep + (outpath if outpath else time.strftime("%d_%m_%Y")), coList)
     return coList
 
+# function is called if "See [company]" or "Bought by [company]" is given in Website column for the current co object
+# assigns company's co object to the current co object's reference attribute
+# also assigns current co object to company's subsidiary list attribute
 def findReference(co, coList):
     for company in coList:
-        if co.reference[0] in company.name and company.reference[0] == None:
+        if co.reference[0] in company.name and company.reference[0] is None:
             co.reference[1] = company
             company.subsidiary.append(co)
 
@@ -83,9 +91,9 @@ def findReference(co, coList):
    Ignores duplicates/references"""
 def coUpdateHTML(colist, lim = -1, outpath = None):
     colist = colist[0:lim]
-    for co in colist: #iterates through every Co object
+    for co in colist: # iterates through every Co object
 
-        if (co.reference[0] == None): #ensures not a reference
+        if (co.reference[0] == None): # ensures not a reference
             context = ssl._create_unverified_context() #bypasses SSL Certificate Verfication (proabably not a good idea, but it got more sites to work)
             req = Request(co.website, headers = {
                 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
@@ -93,12 +101,10 @@ def coUpdateHTML(colist, lim = -1, outpath = None):
                 'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
                 'Accept-Encoding': 'none',
                 'Accept-Language': 'en-US,en;q=0.8',
-                'Connection': 'keep-alive'}) #changing the header to Mozilla/5.0 prevents some webscraper blocking techniques
+                'Connection': 'keep-alive'}) # changing the header prevents some webscraper blocking techniques
             try:
 
-                response = urlopen(req, context = context).read() #opens the URL and returns data (in bytes)
-
-
+                response = urlopen(req, context = context).read() # opens the URL and returns data (in bytes)
             except ConnectionResetError:
                 print(co.name, '\'s ', 'didn\'t send data')
                 co.errors.append(co.name + ' Server didn\'t send data'+ ' '+ co.website)
@@ -117,9 +123,8 @@ def coUpdateHTML(colist, lim = -1, outpath = None):
             except IncompleteRead as e:
                 print("IncompleteRead Error with ", co.name)
                 co.errors.append(co.name + ' Incomplete Read Error' + ' ' + co.website)
-
             else:
-                ###do not decode before saving into npy file
+                ### do not decode before saving into npy file
                 # try:
                 #     saveWebPage = UnicodeDammit(
                 #         response).unicode_markup  # data (in bytes) from opening URL is decoded into String format
@@ -137,10 +142,10 @@ def coUpdateHTML(colist, lim = -1, outpath = None):
                 """Store the website content"""
                 co.content = [time.strftime("%d/%m/%Y"), response]
                 print (co.name + ' is working fine')
-    curr_dir = os.getcwd() #gets the current directory
+    curr_dir = os.getcwd() # gets the current directory
     np.save(curr_dir + os.sep + 'data' + os.sep + (outpath if outpath else time.strftime("%d_%m_%Y")), colist)
-                                            #Updates the saved binaries
-                                            #if no name is provided it uses the date
+                                            # Updates the saved binaries
+                                            # if no name is provided it uses the date
     return colist
 
 """takes a list of Co objects and attempts to fill out the website content,
@@ -150,7 +155,7 @@ def coUpdateSelenium(colist, lim = -1, outpath = None):
     count = 0
     colist = colist[0:lim]
     driver = webdriver.Firefox()
-    for co in colist: #iterates through every Co object that errored
+    for co in colist: # iterates through every Co object that errored
         if co.errors != []:
 
             driver.get(co.website)
@@ -164,10 +169,10 @@ def coUpdateSelenium(colist, lim = -1, outpath = None):
 
     driver.close()
     print(str(count))
-    curr_dir = os.getcwd() #gets the current directory
+    curr_dir = os.getcwd() # gets the current directory
     np.save(curr_dir + os.sep + 'data' + os.sep + (outpath if outpath else time.strftime("%d_%m_%Y")), colist)
-                                            #Updates the saved binaries
-                                            #if no name is provided it uses the date
+                                            # Updates the saved binaries
+                                            # if no name is provided it uses the date
     return colist
 
 
@@ -218,10 +223,10 @@ def word_scrape_list_of_sites(colist):
 
             return text
         
-        word_indexing = collections.Counter() #sets up a counter where we put words into
+        word_indexing = collections.Counter() # sets up a counter where we put words into
         words_index = re.findall(r'\w+', text_scraper(co.content[1]).lower()) #find only words and make them lower case
         
-        total_words = len(words_index) #find total words on webpage
+        total_words = len(words_index) # find total words on webpage
         
         # gets rid of words we don't want
         word_in_text = [validate_word(word) for word in words_index if validate_word(word) is not None] 
@@ -233,19 +238,22 @@ def word_scrape_list_of_sites(colist):
         return word_indexing
     
     list_index = combine_counters([word_index(co) for co in colist if co.content != []])
-    return list_index #returns a dictionary with words as keys and word densities as values
+    return list_index # returns a dictionary with words as keys and word densities as values
 
 
 
 
 def npyImport(name = 'binaries.npy'):
-    curr_dir = os.getcwd() #gets the current directory
+    curr_dir = os.getcwd() # gets the current directory
     return np.load(curr_dir + os.sep + 'data' + os.sep + name)
 
 
-def createCSVFile(fileName, rows):
+def createCSVFile(filename, rows):
     curr_dir = os.getcwd()
-    savepath = os.path.join(curr_dir + "/data/" + fileName + time.strftime("%Y-%m-%d(%H_%M_%S)", time.gmtime()) + ".csv")
+
+    # adds date and time to end of file name to avoid overwriting
+    savepath = os.path.join(curr_dir + "/data/" + filename + time.strftime("%Y-%m-%d(%H_%M_%S)", time.gmtime()) + ".csv")
+
     with open(savepath, "w", encoding = 'utf-8') as output:
         writer = csv.writer(output, lineterminator='\n')
         writer.writerows(rows)
