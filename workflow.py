@@ -186,9 +186,9 @@ def word_index(colist):
     word_indexing = collections.Counter() # add each word to counter
     for co in colist:
         if co.content != []:
-
+            
             words_index = re.findall(r'\w+', text_scraper(co.content[1]).lower()) # find only words and make them lower case
-
+            total_words = len(words_index)
             word_in_text = [validate_word(word) for word in words_index if validate_word(word) is not None]
 
 
@@ -196,7 +196,7 @@ def word_index(colist):
             for word in word_in_text:
                 word_indexing[word] += 1
 
-    word_indexing = [[i, word_indexing[i]] for i in word_indexing if word_indexing[i] > 10]
+    word_indexing = [[i, word_indexing[i], word_index[i]/total_words] for i in word_indexing if word_indexing[i] > 10]
     return word_indexing
     #collections.Counter(word_in_text)
 
