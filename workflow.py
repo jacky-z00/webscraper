@@ -31,6 +31,8 @@ from datetime import datetime
 
 startTime = datetime.now()
 
+import timeout_decorator
+
 
 class Co:
     """Short for COmpany, this class will contain all the data we need on each company"""
@@ -89,9 +91,11 @@ def findReference(co, coList):
 """takes a list of Co objects and attempts to fill out their website content,
    errors encounters, and dates of access using basic html methods
    Ignores duplicates/references"""
-def coUpdateHTML(colist, lim = -1, outpath = None):
+def coUpdateHTML(colist, lim = -1, outpath = None, timeout = 10):
+    #timeout defaults to 10 seconds
     colist = colist[0:lim]
-    for co in colist: # iterates through every Co object
+    @timeout_decorator.timeout(10)
+    def getHTML(co):
 
         if (co.reference[0] == None): # ensures not a reference
             context = ssl._create_unverified_context() #bypasses SSL Certificate Verfication (proabably not a good idea, but it got more sites to work)
@@ -140,8 +144,16 @@ def coUpdateHTML(colist, lim = -1, outpath = None):
                 # else:
 
                 """Store the website content"""
-                co.content = [time.strftime("%d/%m/%Y"), response]
+                co.content.append([time.strftime("%d/%m/%Y"), response])
                 print (co.name + ' is working fine')
+                return co
+
+    for co in colist: # iterates through every Co object
+        try:
+            getHTML(co)
+        except TimeoutError:
+            print (co.name + ' has a TimeoutError')
+            co.errors.append(co.name + ' TimeoutError' + ' ' + co.website)
     curr_dir = os.getcwd() # gets the current directory
     np.save(curr_dir + os.sep + 'data' + os.sep + (outpath if outpath else time.strftime("%d_%m_%Y")), colist)
                                             # Updates the saved binaries
@@ -161,7 +173,7 @@ def coUpdateSelenium(colist, lim = -1, outpath = None):
             driver.get(co.website)
             if driver.page_source:
                 count = count + 1
-                co.content = [time.strftime("%d/%m/%Y"), driver.page_source]
+                co.content.append([time.strftime("%d/%m/%Y"), driver.page_source])
                 print (co.name + ' is working fine with selenium')
             else:
                 print ("Selenium issue")
@@ -178,14 +190,14 @@ def coUpdateSelenium(colist, lim = -1, outpath = None):
 
 
 def word_scrape_list_of_sites(colist):
-    
+
     def combine_counters(list_of_counters):
-            
+
         total_index = collections.Counter()
-            
+
         for counter in list_of_counters:
             total_index.update(counter)
-                
+
         return total_index
 
     def word_index(co):
@@ -214,29 +226,29 @@ def word_scrape_list_of_sites(colist):
 
             # break into lines and remove leading and trailing space on each
             lines = (line.strip() for line in text.splitlines())
-            
+
             # break multi-headlines into a line each
             chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-            
+
             # drop blank lines
             text = '\n'.join(chunk for chunk in chunks if chunk)
 
             return text
-        
+
         word_indexing = collections.Counter() # sets up a counter where we put words into
-        words_index = re.findall(r'\w+', text_scraper(co.content[1]).lower()) #find only words and make them lower case
-        
+        words_index = re.findall(r'\w+', text_scraper(co.content[-1][1]).lower()) #find only words and make them lower case
+
         total_words = len(words_index) # find total words on webpage
-        
+
         # gets rid of words we don't want
-        word_in_text = [validate_word(word) for word in words_index if validate_word(word) is not None] 
-        
+        word_in_text = [validate_word(word) for word in words_index if validate_word(word) is not None]
+
         for word in word_in_text:
             word_indexing[word] += 1
         for word in word_indexing:
             word_indexing[word] = word_indexing[word]/total_words
         return word_indexing
-    
+
     list_index = combine_counters([word_index(co) for co in colist if co.content != []])
     return list_index # returns a dictionary with words as keys and word densities as values
 
