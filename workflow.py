@@ -151,53 +151,71 @@ def coUpdateSelenium(colist, lim = -1, outpath = None):
                                             #if no name is provided it uses the date
     return colist
 
-def word_index(colist):
 
-    # Words we don't care about
-    useless_words = ['the', 'contact', 'us', 'and', 'subscribe', 'to', 'on', 'a', 'our', 'visit', 'all', 'rights', 'reserved',
-                'your', 'for', 'more', 'read', 'their', 'with', 'every', 'you', 'what', 'why', 'how', 'new']
 
-    # ignore words shorter than 3 letters, numbers, and words in useless_words
-    def validate_word(word):
-        if len(word) > 2 and not word[0].isdigit() and word not in useless_words:
-            return word
-
-# Function to scrape text
-    def text_scraper(site):
-
-        soup = BeautifulSoup(site,"html.parser") # get html from site
-
-    # kill all script and style elements
-        for script in soup(["script", "style"]):
-            script.extract()    # rip it out
-
-    # get text
-        text = soup.get_text()
-
-    # break into lines and remove leading and trailing space on each
-        lines = (line.strip() for line in text.splitlines())
-    # break multi-headlines into a line each
-        chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-    # drop blank lines
-        text = '\n'.join(chunk for chunk in chunks if chunk)
-
-        return text
-
-    word_indexing = collections.Counter() # add each word to counter
-    for co in colist:
-        if co.content != []:
+def word_scrape_list_of_sites(colist):
+    
+    def combine_counters(list_of_counters):
             
-            words_index = re.findall(r'\w+', text_scraper(co.content[1]).lower()) # find only words and make them lower case
-            total_words = len(words_index)
-            word_in_text = [validate_word(word) for word in words_index if validate_word(word) is not None]
+        total_index = collections.Counter()
+            
+        for counter in list_of_counters:
+            total_index.update(counter)
+                
+        return total_index
 
+    def word_index(co):
 
+        # Words we don't care about
+        useless_words = ['the', 'contact', 'us', 'and', 'subscribe', 'to', 'on', 'a', 'our', 'visit', 'all', 'rights', 'reserved',
+                    'your', 'for', 'more', 'read', 'their', 'with', 'every', 'you', 'what', 'why', 'how', 'new', 'are', 'that', 'are', 'from', 'can', 'get', 'this',
+                    'has', 'will']
 
-            for word in word_in_text:
-                word_indexing[word] += 1
+        # ignore words shorter than 3 letters, numbers, and words in useless_words
+        def validate_word(word):
+            if len(word) > 2 and not word[0].isdigit() and word not in useless_words:
+                return word
 
-    word_indexing = [[i, word_indexing[i], word_index[i]/total_words] for i in word_indexing if word_indexing[i] > 10]
-    return word_indexing
+    # Function to scrape text
+        def text_scraper(co_html):
+
+            soup = BeautifulSoup(co_html,"html.parser") # get html from site
+
+            # kill all script and style elements
+            for script in soup(["script", "style"]):
+                script.extract()    # rip it out
+
+            # get text
+            text = soup.get_text()
+
+            # break into lines and remove leading and trailing space on each
+            lines = (line.strip() for line in text.splitlines())
+            
+            # break multi-headlines into a line each
+            chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+            
+            # drop blank lines
+            text = '\n'.join(chunk for chunk in chunks if chunk)
+
+            return text
+        
+        word_indexing = collections.Counter() #sets up a counter where we put words into
+        words_index = re.findall(r'\w+', text_scraper(co.content[1]).lower()) #find only words and make them lower case
+        
+        total_words = len(words_index) #find total words on webpage
+        
+        # gets rid of words we don't want
+        word_in_text = [validate_word(word) for word in words_index if validate_word(word) is not None] 
+        
+        for word in word_in_text:
+            word_indexing[word] += 1
+        for word in word_indexing:
+            word_indexing[word] = word_indexing[word]/total_words
+        return word_indexing
+    
+    list_index = combine_counters([word_index(co) for co in colist if co.content != []])
+    return list_index
+
     #collections.Counter(word_in_text)
 
 
@@ -210,13 +228,13 @@ def npyImport(name = 'binaries.npy'):
 def createCSVFile(coList, fileName):
     curr_dir = os.getcwd()
     savepath = os.path.join(curr_dir + "/data/" + fileName + time.strftime("%Y-%m-%d(%H_%M_%S)", time.gmtime()) + ".csv")
-    with open(savepath, "w") as output:
+    with open(savepath, "w", encoding = 'utf-8') as output:
         writer = csv.writer(output, lineterminator='\n')
-        writer.writerows(word_index(coList))
+        writer.writerows(word_scrape_list_of_sites(coList))
 
 
 """Here is the main workflow"""
-coList = npyImport("31_12_2016.npy") # npy file too big to put on github
+coList = npyImport("01_01_2017.npy") # npy file too big to put on github
 createCSVFile(coList, "Words")
 
 # r = excelToCo()
