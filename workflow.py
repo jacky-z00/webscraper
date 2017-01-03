@@ -34,13 +34,19 @@ class Co:
     """Short for COmpany, this class will contain all the data we need on each company"""
     def __init__(self, name = None, website = None):
         self.name = name
-        self.reference = None # Is set to the reference comany if one is provided (See)
+        self.subsidiary = []
+        self.reference = [None, None] # Is set to the reference comany if one is provided (See)
         if website[0:4] != 'http' and website[0:3] != 'See':
-            #appends http heading if not already present and
-            #checks if the provider is a subordinate of another provider
-    	       website = 'http://' + website
+            # appends http heading if not already present and
+            # checks if the provider is a subordinate of another provider
+            website = 'http://' + website
         elif website[0:3] == 'See':
-            self.reference = website[4:] #Reference to other Co to be implemented
+            website = website[4:]
+            website = website.rsplit('(', 1)[0]
+            website = website.rsplit(' ', 1)[0]
+            self.reference[0] = website
+        elif website[0:9] == 'Bought by':
+            self.reference[0] = website[10:]
         self.website = website
         self.content = [] # Contains a set of sublists of the form
                           # [dateAccessed, content]
@@ -55,10 +61,22 @@ def excelToCo(inpath = '2015 CloudShare - December Final.xlsx', outpath = None):
     data = spreadsheet.get_sheet_by_name('Data') #specifies which sheet to pull data from
 
     for i in range(2, data.max_row):
-        coList.append(Co(data.cell(row = i, column = 2).value,
-                         data.cell(row = i, column = 3).value))
+        if data.cell(row = i, column = 3).value != None:
+            coList.append(Co(data.cell(row = i, column = 2).value,
+                             data.cell(row = i, column = 3).value))
+
+    for co in coList:
+        if co.reference[0] != None:
+            findReference(co, coList)
+
     np.save(curr_dir + os.sep + 'data' + os.sep + (outpath if outpath else time.strftime("%d_%m_%Y")), coList)
     return coList
+
+def findReference(co, coList):
+    for company in coList:
+        if co.reference[0] in company.name and company.reference[0] == None:
+            co.reference[1] = company
+            company.subsidiary.append(co)
 
 """takes a list of Co objects and attempts to fill out their website content,
    errors encounters, and dates of access using basic html methods
@@ -67,7 +85,7 @@ def coUpdateHTML(colist, lim = -1, outpath = None):
     colist = colist[0:lim]
     for co in colist: #iterates through every Co object
 
-        if (co.reference == None): #ensures not a reference
+        if (co.reference[0] == None): #ensures not a reference
             context = ssl._create_unverified_context() #bypasses SSL Certificate Verfication (proabably not a good idea, but it got more sites to work)
             req = Request(co.website, headers = {
                 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
@@ -215,9 +233,8 @@ def word_scrape_list_of_sites(colist):
         return word_indexing
     
     list_index = combine_counters([word_index(co) for co in colist if co.content != []])
-    return list_index
+    return list_index #returns a dictionary with words as keys and word densities as values
 
-    #collections.Counter(word_in_text)
 
 
 
@@ -226,20 +243,22 @@ def npyImport(name = 'binaries.npy'):
     return np.load(curr_dir + os.sep + 'data' + os.sep + name)
 
 
-def createCSVFile(coList, fileName):
+def createCSVFile(fileName, rows):
     curr_dir = os.getcwd()
     savepath = os.path.join(curr_dir + "/data/" + fileName + time.strftime("%Y-%m-%d(%H_%M_%S)", time.gmtime()) + ".csv")
     with open(savepath, "w", encoding = 'utf-8') as output:
         writer = csv.writer(output, lineterminator='\n')
-        writer.writerows(word_scrape_list_of_sites(coList))
+        writer.writerows(rows)
 
 
 """Here is the main workflow"""
-coList = npyImport("01_01_2017.npy") # npy file too big to put on github
-createCSVFile(coList, "Words")
+# coList = npyImport("01_01_2017.npy") # npy file too big to put on github
+# listIndexes = word_scrape_list_of_sites(coList)
+# rows = listIndexes.items() # converts dictionary into a list of tuples
+# createCSVFile("Words", rows)
 
-# r = excelToCo()
-# r = coUpdateHTML(r, lim = 10)
+r = excelToCo()
+r = coUpdateHTML(r, lim = -1)
 print (datetime.now() - startTime)
 
 
