@@ -101,23 +101,24 @@ def coUpdateHTML(colist, lim = -1, outpath = None):
                 co.errors.append(co.name + ' Incomplete Read Error' + ' ' + co.website)
 
             else:
-                try:
-                    saveWebPage = UnicodeDammit(
-                        response).unicode_markup  # data (in bytes) from opening URL is decoded into String format
-                except UnicodeDecodeError: # some errors have occurred when decoding characters from non-English languages
-                    print("Unicode Decode Error")
-                    co.errors.append(co.name + ' Decode Error' + ' ' + co.website)
-                except etree.ParserError:
-                    print("ParserError with ", co.name)
-                    co.errors.append(co.name + ' Parser Error ' + co.website)
-                except etree.XMLSyntaxError:
-                    print("XMLSyntaxError with ", co.name)
-                    co.errors.append(co.name + ' XML Syntax Error ' + co.website)
-                else:
+                ###do not decode before saving into npy file
+                # try:
+                #     saveWebPage = UnicodeDammit(
+                #         response).unicode_markup  # data (in bytes) from opening URL is decoded into String format
+                # except UnicodeDecodeError: # some errors have occurred when decoding characters from non-English languages
+                #     print("Unicode Decode Error")
+                #     co.errors.append(co.name + ' Decode Error' + ' ' + co.website)
+                # except etree.ParserError:
+                #     print("ParserError with ", co.name)
+                #     co.errors.append(co.name + ' Parser Error ' + co.website)
+                # except etree.XMLSyntaxError:
+                #     print("XMLSyntaxError with ", co.name)
+                #     co.errors.append(co.name + ' XML Syntax Error ' + co.website)
+                # else:
 
-                    """Store the website content"""
-                    co.content = [time.strftime("%d/%m/%Y"), saveWebPage]
-                    print (co.name + ' is working fine')
+                """Store the website content"""
+                co.content = [time.strftime("%d/%m/%Y"), response]
+                print (co.name + ' is working fine')
     curr_dir = os.getcwd() #gets the current directory
     np.save(curr_dir + os.sep + 'data' + os.sep + (outpath if outpath else time.strftime("%d_%m_%Y")), colist)
                                             #Updates the saved binaries
