@@ -1,4 +1,4 @@
-from webscraper import workflow, domains, Websearcher, utils
+from code import workflow, domains, Websearcher, utils
 from mstranslator import Translator
 import os
 
@@ -7,7 +7,7 @@ Co = workflow.Co
 curr_dir = os.getcwd()
 
 #Fill in these parameters for either search
-savepath = os.path.join(curr_dir + "/webscraper/data/")
+savepath = os.path.join(curr_dir + "/data/")
 search_term = "cloud management data"
 excludedTerms = None
 translator = Translator('40b49a7a195e4a05a7bbe800342e073d')
